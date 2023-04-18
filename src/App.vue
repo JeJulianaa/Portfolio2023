@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
+    <div class="wrapper ">
 
       <nav>
         <RouterLink to="/">Hjem</RouterLink>
@@ -85,6 +85,7 @@ import { RouterLink, RouterView } from 'vue-router'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  background-color: #CFC9C9;
 }
 
 .logo {
@@ -95,7 +96,7 @@ header {
 nav {
   width: 100%;
   font-size: 12px;
-  text-align: center;
+  
   margin-top: 2rem;
 }
 
@@ -120,14 +121,16 @@ nav a:first-of-type {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    min-height:120px ; /* Added */
+    min-height:100px ; /* Added */
     place-items: center; 
     /* padding-right: calc(var(--section-gap) / 2); */ /* changed */
     width: 100%;
+    
   }
 
   .logo {
     margin: 0 2rem 0 0;
+    
   }
 
   header .wrapper {
@@ -135,10 +138,11 @@ nav a:first-of-type {
     place-items: flex-start;
     flex-wrap: wrap;
     width: 100%;  /* changed */
+
   }
 
   nav {
-    text-align: left;
+    text-align: right;
     margin-left: -1rem;
     font-size: 1rem;
 

@@ -6,11 +6,13 @@
 
 #app {
   max-width: 100%; /* Changed: 1280px */
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+ 
 
   font-weight: normal;
 }
+
+
 
 a,
 .green {
@@ -27,7 +29,7 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
+    
    /*  place-items: center; */  /* Changed */
   }
 
@@ -36,7 +38,11 @@ a,
     flex-direction: column; /* Added */
     
     /* grid-template-columns: 1fr; */ /* Changed */
-    padding: 0 2rem;
-    width:90%; /* Added */
+    /*padding: 0 2rem;*/
+    /*width:100%;  /* Added */
+    
   }
 }
+
+
+

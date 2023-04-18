@@ -2,8 +2,15 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  content: [],
+  content: ["./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
+    screens: {
+     
+    
+    },
+    
+
     extend: {},
   },
   plugins: [],
