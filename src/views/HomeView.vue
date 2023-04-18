@@ -7,9 +7,12 @@
 <template>
   
   <main class="w-full bg-zinc-800" >
-    <div class=" b-zinc-500 flex">
-      
-      <div class="w-6/12 pl-2 pt-16 2xl:pt-64 xl:pt-48 pl-24 lg:pt-36 md:pt-28 md:pl-12 sm:pl-12 pt-20 xs:pl-1 pt-5">
+    <div class="b-zinc-500 flex">
+      <div class="w-auto md:w-20 sm:w-14 xs:w-11">
+
+      </div>
+      <div class="w-2/4  pt-16 2xl:pt-64 xl:pt-48 lg:pt-36 md:pt-28  sm: pt-20  pt-5">
+        
         <div class="bg-violet-600">
           <h1 class="homeTextOne text-sky-900 sm:text-violet-800 md:text-orange-500  lg:text-rose-400  2xl:text-green-600 xl:text-red-600"> Mit navn er </h1>
           <h1 class="homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
@@ -24,8 +27,8 @@
       </div>
     </div>
 
-    <div class="border-red-600">
-
+    <div class="rounded border-red-600">
+      
     </div>
   </main>
  
