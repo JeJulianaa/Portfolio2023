@@ -23,7 +23,7 @@
               <h1 class="homeTextOne text-sky-900 sm:text-violet-800 md:text-orange-500  lg:text-rose-400  2xl:text-green-600 xl:text-red-600"> Mit navn er </h1>
               <h1 class="homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
               <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Jeg er content Creator</p>
-            <button class="w-3/4 homeButtomProjekt text-center  p-4 lg:p-6 lg:mt-10 bg-sky-900 ">Se projekter</button>
+            <button class="w-3/4 homeButtomProjekt text-center  border-4 rounded-lg p-4 lg:p-6 lg:mt-10 bg-sky-900 ">Se projekter</button>
           </div>
           </div>
           
@@ -37,7 +37,7 @@
         </div>
 
         <hr class="border-2">
-        
+        <!--section1 photo-->
         <div class="ConTaioner h-auto">
           
           <div class="flex flex-row xs:flex-col sm:flex-row ">
@@ -49,7 +49,7 @@
            
             <div class="childTwo bg-green-600 py-20">
               <h1 class="text-5xl">
-                Alberte
+                Hvad kan jeg?
              </h1>
                <p class="text ">
                Som multimediedesigner og content creator bringer 
@@ -57,7 +57,7 @@
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
                  Om Mig
               </button>
             </div>
@@ -80,7 +80,7 @@
 
       </div>
 
-      <!--section 2-->
+      <!--section 2 big photo-->
       <div class="ConTaioner h-auto">
           
           <div class="flex flex-row xs:flex-col sm:flex-row ">
@@ -88,9 +88,9 @@
             <div class="basis-1/4 xs:basis-2 sm:basis-36">
               
             </div>
-         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+         <div class="parrentTwo flex basis-2/5 bg-orange-600">   
            
-            <div class="childTwo bg-green-600 py-20">
+            <div class="childTwo bg-green-600 border-4 rounded-lg py-20">
               <h1 class="text-5xl">
                 Alberte
              </h1>
@@ -100,7 +100,7 @@
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
                  Om Mig
               </button>
             </div>
@@ -108,7 +108,7 @@
 
            
 
-          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+          <div class="parrentTwo flex basis-3/5 bg-orange-600">   
             
             <div class="childTwo bg-green-600 py-20">
             </div>
@@ -123,7 +123,7 @@
 
       </div>
 
-      <!--section3-->
+      <!--section3 photo-->
       <div class="ConTaioner h-auto">
           
           <div class="flex flex-row xs:flex-col sm:flex-row ">
@@ -143,7 +143,7 @@
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
                  Om Mig
               </button>
             </div>
@@ -153,7 +153,8 @@
 
           <div class="parrentTwo flex basis-1/2 bg-orange-600">   
             
-            <div class="childTwo bg-green-600 py-20">
+            <div class="childTwo bg-green-600 rounded-lg  py-20 ">
+        
             </div>
            
           </div>
@@ -184,7 +185,7 @@
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
                  Om Mig
               </button>
             </div>
@@ -195,6 +196,7 @@
           <div class="parrentTwo flex basis-1/2 bg-orange-600">   
             
             <div class="childTwo bg-green-600 py-20">
+
             </div>
            
           </div>
