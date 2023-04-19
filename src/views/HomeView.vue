@@ -42,7 +42,7 @@
           
           <div class="flex flex-row xs:flex-col sm:flex-row ">
            
-            <div class="basis-1/4 xs:basis-2 sm:basis-36">
+ <div class="basis-1/4 xs:basis-2 sm:basis-36">
               
             </div>
          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
@@ -63,17 +63,17 @@
             </div>
           </div>
 
-          
-          
+           
 
           <div class="parrentTwo flex basis-1/2 bg-orange-600">   
             
-           
+            <div class="childTwo bg-green-600 py-20">
+            </div>
            
           </div>
           <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
               
-            </div>
+          </div>
 
               
         </div>
