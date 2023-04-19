@@ -160,7 +160,7 @@
           <div class="parrentTwo flex basis-1/2 bg-orange-600">   
             
            
-              <div class="childTwo bg-green-600 pl-2 py-2 h-fit rounded-lg ">
+              <div class="childTwo bg-green-600 pl-2 py-2  rounded-lg ">
                <a href="#" class="">
                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg ">
                 </a>
@@ -175,6 +175,12 @@
               
         </div>
       </div>
+      <!--space between 3section and contact-->
+      <div class="h-32">
+
+      </div>
+      <hr class="border-2">
+
       <!--section4 contact-->
       <div class="ConTaioner h-auto">
           
@@ -218,13 +224,19 @@
         </div>
 
       </div>
+      
 
+      
+
+
+      
     </div>
-    </main>
+ </main>
  
 </template>
 
 <style> 
+
     
 
 @media (min-width: 350px) {

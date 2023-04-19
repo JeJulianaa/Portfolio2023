@@ -17,6 +17,8 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
+  
+
   <!-- must do this for fade out to work -->
   <RouterView v-slot="{ Component }">
     <transition name="slide-fade">
@@ -28,7 +30,48 @@ import { RouterLink, RouterView } from 'vue-router'
 <!--     <RouterView />
   </Transition>   -->
 
+  <footer class="bg-gray-900 text-white">
+      <div class="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="text-lg font-bold">Contact Us</h4>
+          <ul class="mt-4">
+            <li>
+              <span class="text-gray-400">Phone:</span> 555-555-5555
+            </li>
+            <li>
+              <span class="text-gray-400">Email:</span> info@example.com
+            </li>
+            <li>
+              <span class="text-gray-400">Address:</span> 123 Main St, Anytown USA
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold">Links</h4>
+          <ul class="mt-4">
+            <li>
+              <a href="/" class="text-gray-400 hover:text-white">Home</a>
+            </li>
+            <li>
+              <a href="/about" class="text-gray-400 hover:text-white mt-2">About</a>
+            </li>
+            <li>
+              <a href="/contact" class="text-gray-400 hover:text-white mt-2">Contact</a>
+            </li>
+            <li>
+              <a href="/projects" class="text-gray-400 hover:text-white mt-2">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="/logo.png" alt="Logo" class="w-12 h-12 mb-4">
+          <p class="text-gray-400">&copy; 2023 Your Company Name</p>
+        </div>
+      </div>
+    </footer>
 </template>
+
+
 
 <style scoped>
 .v-enter-active,
