@@ -38,7 +38,7 @@
 
         <hr class="border-2">
         <!--section1 photo-->
-        <div class="ConTaioner h-auto">
+        <div class="ConTaioner ">
           
           <div class="flex flex-row xs:flex-col sm:flex-row ">
            
@@ -47,7 +47,7 @@
             </div>
          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
            
-            <div class="childTwo bg-green-600 py-20">
+            <div class="childTwo bg-green-600 py-2 ">
               <h1 class="text-5xl">
                 Hvad kan jeg?
              </h1>
@@ -65,9 +65,12 @@
 
            
 
-          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+          <div class="parrentTwo flex basis-1/2 bg-orange-600  ">   
             
-            <div class="childTwo bg-green-600 py-20">
+            <div class="childTwo  bg-green-600 pl-2 py-2 pt-4 h-fit rounded-lg">
+              <a href="#" class="">
+                <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg">
+              </a>
             </div>
            
           </div>
@@ -83,14 +86,14 @@
       <!--section 2 big photo-->
       <div class="ConTaioner h-auto">
           
-          <div class="flex flex-row xs:flex-col sm:flex-row ">
+          <div class="flex flex-row xs:flex-col sm:flex-row">
            
             <div class="basis-1/4 xs:basis-2 sm:basis-36">
               
             </div>
-         <div class="parrentTwo flex basis-2/5 bg-orange-600">   
+            <div class="parrentTwo flex basis-2/5 bg-orange-600 py-2 px-2">   
            
-            <div class="childTwo bg-green-600 border-4 rounded-lg py-20">
+            <div class="childTwo bg-green-600 border-4 rounded-lg py-2  ">
               <h1 class="text-5xl">
                 Alberte
              </h1>
@@ -110,7 +113,10 @@
 
           <div class="parrentTwo flex basis-3/5 bg-orange-600">   
             
-            <div class="childTwo bg-green-600 py-20">
+            <div class="childTwo bg-green-600 pl-2 py-2 h-fit rounded-lg ">
+              <a href="#" class="">
+                <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg ">
+              </a>
             </div>
            
           </div>
@@ -153,9 +159,13 @@
 
           <div class="parrentTwo flex basis-1/2 bg-orange-600">   
             
-            <div class="childTwo bg-green-600 rounded-lg  py-20 ">
-        
+           
+              <div class="childTwo bg-green-600 pl-2 py-2 h-fit rounded-lg ">
+               <a href="#" class="">
+                 <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg ">
+                </a>
             </div>
+            
            
           </div>
           <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
