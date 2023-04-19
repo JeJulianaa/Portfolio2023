@@ -42,7 +42,50 @@
           
           <div class="flex flex-row xs:flex-col sm:flex-row ">
            
- <div class="basis-1/4 xs:basis-2 sm:basis-36">
+            <div class="basis-1/4 xs:basis-2 sm:basis-36">
+
+            </div>
+         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+           
+            <div class="childTwo bg-green-600 py-20">
+              <h1 class="text-5xl">
+                Alberte
+             </h1>
+               <p class="text ">
+               Som multimediedesigner og content creator bringer 
+               jeg et nyt perspektiv til hvert projekt.
+               Med færdigheder inden for UX/UI, content creation, 
+               web development og en dedikation til at holde sig op to-date med de nyeste trends.
+              </p>
+              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+                 Om Mig
+              </button>
+            </div>
+          </div>
+
+           
+
+          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+            
+            <div class="childTwo bg-green-600 py-20">
+            </div>
+           
+          </div>
+          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
+              
+          </div>
+
+              
+        </div>
+
+      </div>
+
+      <!--section 2-->
+      <div class="ConTaioner h-auto">
+          
+          <div class="flex flex-row xs:flex-col sm:flex-row ">
+           
+            <div class="basis-1/4 xs:basis-2 sm:basis-36">
               
             </div>
          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
@@ -79,6 +122,91 @@
         </div>
 
       </div>
+
+      <!--section3-->
+      <div class="ConTaioner h-auto">
+          
+          <div class="flex flex-row xs:flex-col sm:flex-row ">
+           
+            <div class="basis-1/4 xs:basis-2 sm:basis-36">
+              
+            </div>
+         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+           
+            <div class="childTwo bg-green-600 py-20">
+              <h1 class="text-5xl">
+                Alberte
+             </h1>
+               <p class="text ">
+               Som multimediedesigner og content creator bringer 
+               jeg et nyt perspektiv til hvert projekt.
+               Med færdigheder inden for UX/UI, content creation, 
+               web development og en dedikation til at holde sig op to-date med de nyeste trends.
+              </p>
+              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+                 Om Mig
+              </button>
+            </div>
+          </div>
+
+           
+
+          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+            
+            <div class="childTwo bg-green-600 py-20">
+            </div>
+           
+          </div>
+          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
+              
+          </div>
+
+              
+        </div>
+      </div>
+      <!--section4 contact-->
+      <div class="ConTaioner h-auto">
+          
+          <div class="flex flex-row xs:flex-col sm:flex-row ">
+           
+            <div class="basis-1/4 xs:basis-2 sm:basis-36">
+              
+            </div>
+         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+           
+            <div class="childTwo bg-green-600 py-20">
+              <h1 class="text-5xl">
+                Alberte
+             </h1>
+               <p class="text ">
+               Som multimediedesigner og content creator bringer 
+               jeg et nyt perspektiv til hvert projekt.
+               Med færdigheder inden for UX/UI, content creation, 
+               web development og en dedikation til at holde sig op to-date med de nyeste trends.
+              </p>
+              <button class="w-1/2 homeButtomProjekt text-center p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+                 Om Mig
+              </button>
+            </div>
+          </div>
+
+           
+
+          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
+            
+            <div class="childTwo bg-green-600 py-20">
+            </div>
+           
+          </div>
+          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
+              
+          </div>
+
+              
+        </div>
+
+      </div>
+
     </div>
     </main>
  
