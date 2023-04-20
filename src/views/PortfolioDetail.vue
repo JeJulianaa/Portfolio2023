@@ -17,11 +17,11 @@
                 </p>
                 
                 <h4 class="text-5xl">{{ portfolioDetails.title }} - id:  {{ portfolioDetails.id }}</h4>
-                
+                <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Beskrivelse</p>
                 <p>
                   {{ portfolioDetails.description }}
                 </p>
-                <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Beskrivelse</p>
+                
                 <br>
                 LinkedIn:
                 <a :href="portfolioDetails.link">
@@ -34,6 +34,9 @@
                 </a>
                 <p>
                   TechStack: {{ portfolioDetails.tech }}
+                </p>
+                <p>
+                  Sammen arbejdet med: {{ portfolioDetails.gruppe }}
                 </p>
                 <p>
                   Date: {{ portfolioDetails.date }}

@@ -51,16 +51,16 @@ a,
   }
 
   .glowbutton{
- 
-    transition: all 0.2s ease-in-out;
-   }
-   .glow-button:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+   
+  }
+  .glow-button:hover {
+    color: rgb(67, 236, 255);
+    box-shadow:  1px 5px 50px rgba(67, 236, 255, 0.657);;
     transition: all 0.3s ease-in-out;
-    border-color: aliceblue;
+    transition: all 0.4 step-end;
+    border-color:  rgb(67, 236, 255);
     text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);;
-   }
+  }
    
    
    .glow-photo-button:hover{
@@ -79,6 +79,8 @@ a,
 
   button{
     font-family: "neon";
+    color: rgb(2, 106, 118);
+    border-color: rgb(2, 106, 118);
   }
 }
 

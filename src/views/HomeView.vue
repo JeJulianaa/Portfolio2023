@@ -11,12 +11,12 @@
           <div class="flex flex-wrap justify-end">
             <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4">
               <!-- Content for the left column goes here -->
-              <h1 class="homeTextOne text-sky-900 sm:text-violet-800 md:text-orange-500  lg:text-rose-400  2xl:text-green-600 xl:text-red-600"> Mit navn er </h1>
-                <h1 class="homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
+              <h1 class="homeTextOne mitNavn"> Mit navn er </h1>
+                <h1 class="AlberteT homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
                 <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Jeg er content Creator</p>
               
                 <RouterLink to="/projekt">
-                  <button class="w-3/4 glow-button homeButtonProjekt text-center text-[#5F5F5F] border-4 border-[#5F5F5F] rounded-lg p-4 lg:p-6 lg:mt-10 ">
+                  <button class="w-3/4 glow-button homeButtonProjekt text-center  border-4  rounded-lg p-4 lg:p-6 lg:mt-10 ">
                     Se Projekter
                   </button>
                 </RouterLink>
@@ -42,7 +42,7 @@
         <div class="w-full flex justify-end">
       
 
-          <div class="flex flex-wrap w-5/6 justify-end ">
+          <div class="sections flex flex-wrap w-5/6 justify-end">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
               <h1 class="text-5xl pt-2">
@@ -109,7 +109,7 @@
 
       <!--section3 photo-->
       <div class="w-full flex justify-end">
-          <div class="flex flex-wrap w-5/6 justify-end">
+          <div class="flex flex-wrap w-5/6 justify-end ">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
               <h1 class="text-5xl pt-4">
@@ -160,17 +160,15 @@
 </template>
 
 <style> 
-.glowbutton{
- 
-  transition: all 0.2s ease-in-out;
+.mitNavn{
+  color: rgb(67, 236, 255);
 }
-.glow-button:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
-  transition: all 0.3s ease-in-out;
-  border-color: aliceblue;
-  text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);;
+.AlberteT{
+  color: rgb(253, 125, 178);
 }
+
+
+
 
 
 .glow-photo-button:hover{
@@ -190,6 +188,7 @@
   .homeButtomProjekt {
     font-size: 1rem;
   }
+ 
 
 }
 
@@ -197,6 +196,7 @@
   .homeTextOne{
   font-size: 2rem;
   }
+ 
 }
 @media (min-width: 640px) {
   .homeTextOne{
@@ -222,8 +222,9 @@
 
 @media (min-width: 1280px) {
   .homeTextOne{
-  font-size: 4rem;
+  font-size: 3rem;
   }
+  
 }
 </style>
 
