@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <nav>
         <RouterLink to="/">Hjem</RouterLink>
-        <RouterLink to="/projekt">Projekt</RouterLink>
+        <RouterLink to="/projekt">Projekter</RouterLink>
         <RouterLink to="/omMig">Om Mig</RouterLink>
         <RouterLink to="/kontakt">Kontakt</RouterLink>
       </nav>
@@ -32,43 +32,51 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <footer class="bg-[#CFC9C9] text-white">
     <hr class="border-2">
-      <div class="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div>
-          <h4 class="text-lg font-bold">Contact Us</h4>
-          <ul class="mt-4">
-            <li>
-              <span class="text-gray-400">Phone:</span> 555-555-5555
-            </li>
-            <li>
-              <span class="text-gray-400">Email:</span> info@example.com
-            </li>
-            <li>
-              <span class="text-gray-400">Address:</span> 123 Main St, Anytown USA
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="text-lg font-bold">Links</h4>
-          <ul class="mt-4">
-            <li>
-              <a href="/" class="text-gray-400 hover:text-white">Home</a>
-            </li>
-            <li>
-              <a href="/about" class="text-gray-400 hover:text-white mt-2">About</a>
-            </li>
-            <li>
-              <a href="/contact" class="text-gray-400 hover:text-white mt-2">Contact</a>
-            </li>
-            <li>
-              <a href="/projects" class="text-gray-400 hover:text-white mt-2">Projects</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex flex-col justify-center items-center">
-          <img src="/logo.png" alt="Logo" class="w-12 h-12 mb-4">
-          <p class="text-gray-400">&copy; 2023 Your Company Name</p>
-        </div>
+  
+    <div class="container mx-auto px-4 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="text-lg font-bold">Contact Us</h4>
+        <ul class="mt-4">
+          <li>
+            <span class="text-gray-400">Phone:</span> 555-555-5555
+          </li>
+          <li>
+            <span class="text-gray-400">Email:</span> email
+          </li>
+          <li>
+            <span class="text-gray-400">Address:</span> 123 Main St, Anytown USA
+          </li>
+        </ul>
       </div>
+      <div>
+        <h4 class="text-lg font-bold">Links</h4>
+        <ul class="mt-4">
+          <li>
+            <RouterLink to="/">Hjem</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/projekt">Projekter</RouterLink>
+          </li>
+          
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-bold">Links</h4>
+        <ul class="mt-4">
+          <li>
+            <RouterLink to="/omMig">Om Mig</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/kontakt">Kontakt</RouterLink>
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center justify-center md:col-start-4">
+        <img src="/logo.png" alt="Logo" class="w-12 h-12 mb-4">
+        <p class="text-gray-400">&copy; 2023 Your Company Name</p>
+      </div>
+    </div>
+
     </footer>
 </template>
 
