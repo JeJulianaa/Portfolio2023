@@ -4,10 +4,12 @@
    <!--  {{ state }} -->
    <div>
     <!-- part 0 -->
-    <div :class="{ active: isActive }">tt</div>
+  
 
     <!-- part 1 -->
-      <h1>Portfolio</h1>
+    <div class="w-full hero-side mx-auto flex justify-center   text-center text-[#5F5F5F] bg-[#1A1A1A]  py-2  ">
+        <h1>Projekter</h1>
+      </div>
       <p>Here is a list of my projects</p>
       
       <br>
@@ -85,7 +87,6 @@ const { state  } = portfoliodb()
     margin: 1rem;
     padding: 1rem;
   
-   
     max-width: 260px;
     max-height: fit-content;
   }
@@ -103,17 +104,20 @@ const { state  } = portfoliodb()
 
   .Web {
     color: #cd5c0b;
-    border-left: 2px solid #cd5c0b;
+    border: 2px solid #cd5c0b;
+   border-radius: 0.5rem;
   }
 
   .Video {
     color: #23b062;
-    border-left: 2px solid #23b062;
+    border: 2px solid #23b062;
+    border-radius: 0.5rem;
   }
 
   .Photoshop {
     color: #2f4ccb;
-    border-left: 2px solid #2f4ccb;
+    border: 2px solid #2f4ccb;
+    border-radius: 0.5rem;
   }
 
   .incomplete {

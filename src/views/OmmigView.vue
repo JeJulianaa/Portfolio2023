@@ -1,58 +1,86 @@
 <template>
-  <div>
-    <h1>Event Page</h1>
-    <img alt="Vue logo" class="logo" src="@/assets/winter-tree.jpeg" width="125" height="125" />
-    <div class="box1">test</div>
-    <p class="text-2xl ...">The quick brown fox ...</p>
-    <p class="text-sky-400/100">The quick brown fox...</p>
+  <main class="">
+    
+      <div class="w-full hero-side mx-auto flex justify-center   text-center text-[#5F5F5F] bg-[#1A1A1A]  py-2  ">
+        <h1>Om Mig</h1>
+      </div>
+    
+     
 
-    {{ dataStuff }}
+      <div class="w-full flex justify-center ">
+            <div class="flex flex-wrap justify-center  ">
+              <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
+                <!-- Content for the left column goes here -->
+                <div class="border-2 rounded-lg py-20 h-full">
+                  <h1 class="text-5xl  text-center">
+                    Fremhævede Projekter
+                </h1>
+                <p class="text pb-8">
+                Som multimediedesigner og content creator bringer 
+                jeg et nyt perspektiv til hvert projekt.
+                Med færdigheder inden for UX/UI, content creation, 
+                web development og en dedikation til at holde sig op to-date med de nyeste trends.
+                </p>
+                <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
+                  Hent CV
+                </button>
+              </div>
 
-    <div v-for="i in myArray" :key="i">
-      {{ i }}
-    </div>
-    {{ myArray }}
+              </div>
+              <div class="w-full lg:w-1/2 px-4">
+                <!-- Content for the right column goes here -->
+                <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+                  <a href="#" class="">
+                    <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  </a>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
 
-    <div>{{ products }}</div>
-
-    <div class="product" v-for="product in products" :key="product">
-      <h4> {{ product.name }} </h4>
-      <p> {{ product.price }} </p>
-    </div>
-
-    <button @click="showHide()" >show/hide</button>
-    <div v-show="show">Visible</div>
-    <!-- <div v-else>Hidden</div> -->
-    <hr>
-  </div>
+          <div class="w-full flex justify-center ">
+            <div class="flex flex-wrap justify-center  ">
+              
+              
+              </div>
+              <div class="w-full lg:w-1/2 px-4">
+                <!-- Content for the right column goes here -->
+                <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+                  <a href="#" class="">
+                    <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  </a>
+                </div>
+                  
+              </div>
+            </div>
+          
+        
+  </main>
 </template>
 
 <script setup>
-import { ref } from 'vue';
 
-let show = ref(true);
-
-let showHide = () => {
-  show.value = !show.value;
-}
-
-
-let dataStuff = 'Hello World';
-let myArray = [1, 2, 3, 4, 5];
-let products = [
-  { name: 'Apple', price: 1 },
-  { name: 'Orange', price: 2 }
-];
 
 </script>
 
 <style>
-.product{
-  background-color: rgb(70, 178, 171);
-  margin: 16px;
-  padding: 16px;
-}
-.box1 {
-  background-color: red;
-}
+  .product{
+    background-color: rgb(70, 178, 171);
+    margin: 16px;
+    padding: 16px;
+  }
+  .box1 {
+    background-color: red;
+  }
+
+
+  .hero-side{
+    font-size: 4rem;
+  }
+  
+   
+ 
+  
+  
 </style>
