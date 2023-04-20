@@ -7,7 +7,7 @@ const getPortfolio = () => {
       title: "Portfolio",
       description: "This is my portfolio",
       category: "Web",
-      image: "https://placehold.jp/150x150.png",
+      image: "../src/assets/billeder/alberte-billede-home.jpg",
       link: "https://www.google.com",
       github: "https://www.google.com",
       tech: "Vue, Tailwind, Node, Express, MongoDB",

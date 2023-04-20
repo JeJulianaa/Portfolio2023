@@ -37,19 +37,11 @@
           {{ item.link }}
         </a>
         <br>
-        Github:
-        <a :href="item.github">
-          {{ item.github }}
-        </a>
-        <p>
-          TechStack: {{ item.tech }}
-        </p>
+       
         <p>
           Date: {{ item.date }}
         </p>
-        <p >
-          Completed: <span :class="item.complete">{{ item.completed }}</span>
-        </p>
+        
         <br>
 
         <!-- part 3 -->
@@ -76,6 +68,7 @@ const { state  } = portfoliodb()
 </script>
 
 <style>
+
 
   .about {
     min-height: 100%;

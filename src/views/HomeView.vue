@@ -16,7 +16,7 @@
                 <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Jeg er content Creator</p>
               
                 <RouterLink to="/projekt">
-                  <button class="w-3/4 glow-button homeButtomProjekt text-center text-[#5F5F5F] border-4 border-[#5F5F5F] rounded-lg p-4 lg:p-6 lg:mt-10 ">
+                  <button class="w-3/4 glow-button homeButtonProjekt text-center text-[#5F5F5F] border-4 border-[#5F5F5F] rounded-lg p-4 lg:p-6 lg:mt-10 ">
                     Se Projekter
                   </button>
                 </RouterLink>
@@ -51,7 +51,7 @@
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
               <RouterLink to="/omMig">
-                <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
+                <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                   Om Mig
                 </button>
              </RouterLink>
@@ -118,10 +118,10 @@
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
               <RouterLink to="/projekt">
-                <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
+                <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                   Se Alle Projekter
                 </button>
-            </RouterLink>
+             </RouterLink>
             </div>
             <div class="w-full lg:w-1/2 px-4">
               <!-- Content for the right column goes here -->
@@ -167,7 +167,7 @@
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
+              <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                  Om Mig
               </button>
             </div>
