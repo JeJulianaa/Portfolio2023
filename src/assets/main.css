@@ -1,4 +1,11 @@
 @import './base.css';
+@font-face{
+  font-family: "neon";
+  src: url("./fonts/NeonTubes2-Regular.ttf") format("truetype"), url("./fonts/NeonTubes2-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @tailwind base;
 @tailwind components;
@@ -29,7 +36,7 @@ a,
 
 @media (min-width: 1024px) {
   body {
-   background-color:rgb(71, 71, 71) ;
+   background-color:#212121;
    /*  place-items: center; */  /* Changed */
   }
 
@@ -63,8 +70,16 @@ a,
     border-color: aliceblue;
     text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);;
    
+
+    
    }
-   
+   h1{
+    font-family: "neon";
+  }
+
+  button{
+    font-family: "neon";
+  }
 }
 
 

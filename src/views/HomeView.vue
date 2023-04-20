@@ -30,7 +30,7 @@
           </div>
         </div>
         
-    <div class="bg-zinc-900">
+    <div class="bg-[#1A1A1A]">
       
       
 

@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<template>
+<template class="">
   <header class="">
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="100" height="100" />
 
@@ -33,11 +33,11 @@ import { RouterLink, RouterView } from 'vue-router'
   <!--space between section and contact-->
   <div class="h-32 bg-[#1A1A1A]">
 
-</div>
-<hr class="border-2">
-<!--section contact-->
-  <div class="container mx-auto px-4 pt-4">
-          <div class="flex flex-wrap -mx-4">
+  </div>
+  <hr class="border-2">
+  <!--section contact-->
+  <div class="container mx-auto px-4 pt-4 bg-[#212121]">
+          <div class="flex flex-wrap -mx-4 ">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
               <h1 class="text-5xl pt-20">
