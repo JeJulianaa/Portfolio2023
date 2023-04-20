@@ -31,6 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </Transition>   -->
 
   <footer class="bg-gray-900 text-white">
+    <hr class="border-2">
       <div class="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div>
           <h4 class="text-lg font-bold">Contact Us</h4>

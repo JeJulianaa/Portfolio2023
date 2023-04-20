@@ -1,4 +1,5 @@
 <template>
+  
   <div class="projekt">
    <!--  {{ state }} -->
    <div>
@@ -19,43 +20,43 @@
    </div> 
    <br>
 
-   <div class="portfolio-container">
-   <div class="portfolio-item"  v-for="item in state" :key="item">
-      <p class="category" :class="item.category">
-        {{ item.category }}
-      </p>
-      <h4>{{ item.title }} - id:  {{ item.id }}</h4>
-      <p>
-        {{ item.description }}
-      </p>
-      <img :src="item.image" alt="image" width="200" height="200">
-      
-      <br>
-      LinkedIn:
-      <a :href="item.link">
-        {{ item.link }}
-      </a>
-      <br>
-      Github:
-      <a :href="item.github">
-         {{ item.github }}
-      </a>
-      <p>
-        TechStack: {{ item.tech }}
-      </p>
-      <p>
-        Date: {{ item.date }}
-      </p>
-      <p >
-        Completed: <span :class="item.complete">{{ item.completed }}</span>
-      </p>
-      <br>
+   <div class="portfolio-container ">
+      <div class="portfolio-item"  v-for="item in state" :key="item">
+        <p class="category" :class="item.category">
+          {{ item.category }}
+        </p>
+        <h4>{{ item.title }} - id:  {{ item.id }}</h4>
+        <p>
+          {{ item.description }}
+        </p>
+        <img :src="item.image" alt="image" width="400" height="400">
+        
+        <br>
+        LinkedIn:
+        <a :href="item.link">
+          {{ item.link }}
+        </a>
+        <br>
+        Github:
+        <a :href="item.github">
+          {{ item.github }}
+        </a>
+        <p>
+          TechStack: {{ item.tech }}
+        </p>
+        <p>
+          Date: {{ item.date }}
+        </p>
+        <p >
+          Completed: <span :class="item.complete">{{ item.completed }}</span>
+        </p>
+        <br>
 
-      <!-- part 3 -->
-      <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">UserDetails</RouterLink>
-     
+        <!-- part 3 -->
+        <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">UserDetails</RouterLink>
+      
+      </div>
     </div>
-  </div>
 
 
   </div>
@@ -91,8 +92,10 @@ const { state  } = portfoliodb()
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #ccc;
+    border-radius: 0.5rem;
    
-    max-width: 250px;
+    max-width: 260px;
+    max-height: fit-content;
   }
 
   .category {

@@ -7,174 +7,119 @@
 <template>
   
   <main class="bg-zinc-800" >
-    
-    <div class="">
-      
-        <div class="b-zinc-500 flex">
-          <!--<div class="w-auto md:w-20 sm:w-14 xs:w-11">
-
-          </div>-->
-          <div class="basis-1/12 xs:basis-2 sm:basis-36">
-
-          </div>
-          <div class="basis-1/2 pt-16 pb-16 2xl:pt-58 xl:pt-48 lg:pt-36 md:pt-28  sm: pt-20  pt-5">
-            
-            <div class="w-full bg-violet-600">
+    <div class="container mx-auto px-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0">
+              <!-- Content for the left column goes here -->
               <h1 class="homeTextOne text-sky-900 sm:text-violet-800 md:text-orange-500  lg:text-rose-400  2xl:text-green-600 xl:text-red-600"> Mit navn er </h1>
-              <h1 class="homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
-              <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Jeg er content Creator</p>
-            <button class="w-3/4 homeButtomProjekt text-center  border-4 rounded-lg p-4 lg:p-6 lg:mt-10 bg-sky-900 ">Se projekter</button>
-          </div>
-          </div>
-          
-          
-          <div class="basis-1/2">
-            <img alt="Vue logo"  src="@/assets/billeder/alberte-billede-home.jpg" class="w-full basis-1/2 h-full object-cover" />
-          </div>
-
-          <div class="basis-1/4 xs:basis-2 sm:basis-36">
+                <h1 class="homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
+                <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Jeg er content Creator</p>
+              <button class="w-3/4 glow-button homeButtomProjekt text-center text-[#5F5F5F] border-4 border-[#5F5F5F] rounded-lg p-4 lg:p-6 lg:mt-10 ">Se projekter</button>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <!-- Content for the right column goes here -->
+              <img alt="Vue logo"  src="@/assets/billeder/alberte-billede-home.jpg" class="w-full basis-1/2 h-full object-cover " />
+              
+            </div>
           </div>
         </div>
+    <div class="bg-zinc-900">
+      
+        
 
         <hr class="border-2">
         <!--section1 photo-->
-        <div class="ConTaioner ">
-          
-          <div class="flex flex-row xs:flex-col sm:flex-row ">
-           
-            <div class="basis-1/4 xs:basis-2 sm:basis-36">
 
-            </div>
-         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
-           
-            <div class="childTwo bg-green-600 py-2 ">
-              <h1 class="text-5xl">
-                Hvad kan jeg?
+        <div class="container mx-auto px-4 pt-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
+              <!-- Content for the left column goes here -->
+              <h1 class="text-5xl pt-20">
+                Multi medie designer
              </h1>
-               <p class="text ">
+               <p class="text pb-8">
                Som multimediedesigner og content creator bringer 
                jeg et nyt perspektiv til hvert projekt.
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                  Om Mig
               </button>
             </div>
-          </div>
-
-           
-
-          <div class="parrentTwo flex basis-1/2 bg-orange-600  ">   
-            
-            <div class="childTwo  bg-green-600 pl-2 py-2 pt-4 h-fit rounded-lg">
-              <a href="#" class="">
-                <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg">
-              </a>
+            <div class="w-full lg:w-1/2 px-4">
+              <!-- Content for the right column goes here -->
+              <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+                <a href="#" class="">
+                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                </a>
+              </div>
+                
             </div>
-           
           </div>
-          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
-              
-          </div>
-
-              
         </div>
-
-      </div>
-
+        
       <!--section 2 big photo-->
-      <div class="ConTaioner h-auto">
-          
-          <div class="flex flex-row xs:flex-col sm:flex-row">
-           
-            <div class="basis-1/4 xs:basis-2 sm:basis-36">
-              
-            </div>
-            <div class="parrentTwo flex basis-2/5 bg-orange-600 py-2 px-2">   
-           
-            <div class="childTwo bg-green-600 border-4 rounded-lg py-2  ">
-              <h1 class="text-5xl">
-                Alberte
-             </h1>
-               <p class="text ">
-               Som multimediedesigner og content creator bringer 
-               jeg et nyt perspektiv til hvert projekt.
-               Med færdigheder inden for UX/UI, content creation, 
-               web development og en dedikation til at holde sig op to-date med de nyeste trends.
-              </p>
-              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+
+      <div class="container mx-auto px-4 ">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
+              <!-- Content for the left column goes here -->
+              <div class="border-4 rounded-lg py-24">
+                <h1 class="text-5xl pb-5 text-center">
+                  Fremhævede Projekter
+              </h1>
+               
+                <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                  Om Mig
               </button>
+             </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <!-- Content for the right column goes here -->
+              <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+                <a href="#" class="">
+                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                </a>
+              </div>
+                
             </div>
           </div>
-
-           
-
-          <div class="parrentTwo flex basis-3/5 bg-orange-600">   
-            
-            <div class="childTwo bg-green-600 pl-2 py-2 h-fit rounded-lg ">
-              <a href="#" class="">
-                <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg ">
-              </a>
-            </div>
-           
-          </div>
-          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
-              
-          </div>
-
-              
         </div>
 
-      </div>
+       
+
+      
 
       <!--section3 photo-->
-      <div class="ConTaioner h-auto">
-          
-          <div class="flex flex-row xs:flex-col sm:flex-row ">
-           
-            <div class="basis-1/4 xs:basis-2 sm:basis-36">
-              
-            </div>
-         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
-           
-            <div class="childTwo bg-green-600 py-20">
-              <h1 class="text-5xl">
-                Alberte
+      <div class="container mx-auto px-4 pt-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
+              <!-- Content for the left column goes here -->
+              <h1 class="text-5xl pt-20">
+                Multi medie designer
              </h1>
-               <p class="text ">
+               <p class="text pb-8">
                Som multimediedesigner og content creator bringer 
                jeg et nyt perspektiv til hvert projekt.
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                  Om Mig
               </button>
             </div>
-          </div>
-
-           
-
-          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
-            
-           
-              <div class="childTwo bg-green-600 pl-2 py-2  rounded-lg ">
-               <a href="#" class="">
-                 <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg ">
+            <div class="w-full lg:w-1/2 px-4">
+              <!-- Content for the right column goes here -->
+              <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+                <a href="#" class="">
+                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
                 </a>
+              </div>
+                
             </div>
-            
-           
           </div>
-          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
-              
-          </div>
-
-              
         </div>
-      </div>
       <!--space between 3section and contact-->
       <div class="h-32">
 
@@ -182,62 +127,76 @@
       <hr class="border-2">
 
       <!--section4 contact-->
-      <div class="ConTaioner h-auto">
-          
-          <div class="flex flex-row xs:flex-col sm:flex-row ">
-           
-            <div class="basis-1/4 xs:basis-2 sm:basis-36">
-              
-            </div>
-         <div class="parrentTwo flex basis-1/2 bg-orange-600">   
-           
-            <div class="childTwo bg-green-600 py-20">
-              <h1 class="text-5xl">
-                Alberte
+      
+      
+
+      
+
+      
+        
+
+
+      
+    </div>
+    
+
+    <div class="container mx-auto px-4 pt-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
+              <!-- Content for the left column goes here -->
+              <h1 class="text-5xl pt-20">
+                Multi medie designer
              </h1>
-               <p class="text ">
+               <p class="text pb-8">
                Som multimediedesigner og content creator bringer 
                jeg et nyt perspektiv til hvert projekt.
                Med færdigheder inden for UX/UI, content creation, 
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
-              <button class="w-1/2 homeButtomProjekt text-center border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10 bg-sky-900 ">
+              <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                  Om Mig
               </button>
             </div>
-          </div>
-
-           
-
-          <div class="parrentTwo flex basis-1/2 bg-orange-600">   
-            
-            <div class="childTwo bg-green-600 py-20">
-
+            <div class="w-full lg:w-1/2 px-4">
+              <!-- Content for the right column goes here -->
+              <div class="childTwo   pl-2 py-2 pt-4 pb-9 h-fit rounded-lg">
+                <a href="#" class="">
+                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                </a>
+              </div>
+                
             </div>
-           
           </div>
-          <div class="sideBox basis-1/4 xs:basis-2 sm:basis-36">
-              
-          </div>
-
-              
         </div>
-
-      </div>
-      
-
-      
-
-
-      
-    </div>
+           
+     
  </main>
  
 </template>
 
 <style> 
+.glowbutton{
+ 
+  transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease-in-out;
+  border-color: aliceblue;
+  text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);;
+}
 
-    
+
+.glow-photo-button:hover{
+  color: rgb(49, 49, 49);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease-in-out;
+  border-color: aliceblue;
+  text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);;
+
+}
+
 
 @media (min-width: 350px) {
   .homeTextOne{
@@ -266,13 +225,13 @@
 
 @media (min-width: 768px) {
   .homeTextOne{
-  font-size: 2rem;
+  font-size: 2.6rem;
   }
 }
 
 @media (min-width: 1024px) {
   .homeTextOne{
-  font-size: 2rem;
+  font-size: 3.3rem;
   }
 }
 
