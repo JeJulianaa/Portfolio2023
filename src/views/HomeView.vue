@@ -51,7 +51,7 @@
               <!-- Content for the right column goes here -->
               <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
                 <a href="#" class="">
-                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
                 </a>
               </div>
                 
@@ -62,24 +62,24 @@
       <!--section 2 big photo-->
 
       <div class="container mx-auto px-4 ">
-          <div class="flex flex-wrap -mx-4">
-            <div class="w-full lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
+          <div class="flex flex-wrap -mx-4 ">
+            <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
               <!-- Content for the left column goes here -->
-              <div class="border-4 rounded-lg py-24">
-                <h1 class="text-5xl pb-5 text-center">
+              <div class="border-4 rounded-lg py-24 h-full">
+                <h1 class="text-5xl  text-center">
                   Fremhævede Projekter
               </h1>
                
                 <button class="w-1/2 glow-button homeButtomProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                  Om Mig
-              </button>
+                </button>
              </div>
             </div>
             <div class="w-full lg:w-1/2 px-4">
               <!-- Content for the right column goes here -->
               <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
                 <a href="#" class="">
-                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
                 </a>
               </div>
                 
@@ -113,7 +113,7 @@
               <!-- Content for the right column goes here -->
               <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
                 <a href="#" class="">
-                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
                 </a>
               </div>
                 

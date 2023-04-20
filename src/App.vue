@@ -30,7 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <!--     <RouterView />
   </Transition>   -->
 
-  <footer class="bg-gray-900 text-white">
+  <footer class="bg-[#CFC9C9] text-white">
     <hr class="border-2">
       <div class="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div>
