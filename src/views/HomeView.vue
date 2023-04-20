@@ -36,19 +36,19 @@
 
         <hr class="border-2">
         <!--section1 photo-->
-        <div class="h-32 bg-[#1A1A1A]">
+        <div class="h-20 bg-[#1A1A1A]">
 
         </div>
         <div class="w-full flex justify-end">
       
 
-          <div class="flex flex-wrap w-5/6 justify-end">
+          <div class="flex flex-wrap w-5/6 justify-end ">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-20">
+              <h1 class="text-5xl pt-2">
                 Multi medie designer
              </h1>
-               <p class="text pb-8">
+               <p class="text pb-2">
                Som multimediedesigner og content creator bringer 
                jeg et nyt perspektiv til hvert projekt.
                Med færdigheder inden for UX/UI, content creation, 
@@ -78,7 +78,7 @@
           <div class="flex flex-wrap justify-end ">
             <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
               <!-- Content for the left column goes here -->
-              <div class="border-4 rounded-lg py-24 h-full">
+              <div class="border-4 rounded-lg py-20 h-full">
                 <h1 class="text-5xl  text-center">
                   Fremhævede Projekter
               </h1>
@@ -112,10 +112,10 @@
           <div class="flex flex-wrap w-5/6 justify-end">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-20">
+              <h1 class="text-5xl pt-4">
                 Multi medie designer
              </h1>
-               <p class="text pb-8">
+               <p class="text pb-1">
                Som multimediedesigner og content creator bringer 
                jeg et nyt perspektiv til hvert projekt.
                Med færdigheder inden for UX/UI, content creation, 

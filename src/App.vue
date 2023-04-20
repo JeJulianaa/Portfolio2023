@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </Transition>   -->
 
   <!--space between section and contact-->
-  <div class="h-32 bg-[#1A1A1A]">
+  <div class="h-20 bg-[#1A1A1A]">
 
   </div>
   <hr class="border-2">
