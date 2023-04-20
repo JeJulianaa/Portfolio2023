@@ -6,7 +6,7 @@
 
 <template>
   
-  <main class="bg-zinc-800" >
+  <main class="bg-[#1A1A1A]" >
     <div class="w-full flex justify-end">
           <div class="flex flex-wrap justify-end">
             <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4">
@@ -32,12 +32,16 @@
         
     <div class="bg-zinc-900">
       
-        
+      
 
         <hr class="border-2">
         <!--section1 photo-->
+        <div class="h-32 bg-[#1A1A1A]">
 
+        </div>
         <div class="w-full flex justify-end">
+      
+
           <div class="flex flex-wrap w-5/6 justify-end">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
@@ -134,13 +138,7 @@
             </div>
           </div>
         </div>
-      <!--space between 3section and contact-->
-      <div class="h-32">
-
-      </div>
-      <hr class="border-2">
-
-      <!--section4 contact-->
+      
       
       
 
@@ -154,34 +152,7 @@
     </div>
     
 
-    <div class="container mx-auto px-4 pt-4">
-          <div class="flex flex-wrap -mx-4">
-            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
-              <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-20">
-                Multi medie designer
-             </h1>
-               <p class="text pb-8">
-               Som multimediedesigner og content creator bringer 
-               jeg et nyt perspektiv til hvert projekt.
-               Med færdigheder inden for UX/UI, content creation, 
-               web development og en dedikation til at holde sig op to-date med de nyeste trends.
-              </p>
-              <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
-                 Om Mig
-              </button>
-            </div>
-            <div class="w-full lg:w-1/2 px-4">
-              <!-- Content for the right column goes here -->
-              <div class="childTwo   pl-2 py-2 pt-4 pb-9 h-fit rounded-lg">
-                <a href="#" class="">
-                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                </a>
-              </div>
-                
-            </div>
-          </div>
-        </div>
+    
            
      
  </main>

@@ -84,8 +84,7 @@ const { state  } = portfoliodb()
   .portfolio-item {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
+  
    
     max-width: 260px;
     max-height: fit-content;
