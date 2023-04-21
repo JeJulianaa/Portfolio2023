@@ -63,9 +63,11 @@
             <div class="w-full lg:w-1/2 px-4">
               <!-- Content for the right column goes here -->
               <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
-                <a href="#" class="">
-                  <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                </a>
+                <RouterLink to="/portfoliodetail/1">
+                  <a href="#" class="">
+                    <img src="@/assets/billeder/Mockup-pc-dreams.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  </a>
+                </RouterLink>
               </div>
                 
             </div>
@@ -94,9 +96,12 @@
             <div class="w-full lg:w-1/2 px-4">
               <!-- Content for the right column goes here -->
               <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
-                <a href="#" class="">
-                  <img src="@/assets/billeder/workex.png" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                </a>
+                
+                <RouterLink to="/portfoliodetail/2">
+                  <a href="#" class="">
+                    <img src="@/assets/billeder/noodles-promotion.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  </a>
+                </RouterLink>
               </div>
                 
             </div>
@@ -130,10 +135,12 @@
             <div class="w-full lg:w-1/2 px-4">
               <!-- Content for the right column goes here -->
               <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
-                <a href="#" class="">
-                  <img src="" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                  
-                </a>
+                <RouterLink to="/portfoliodetail/3">
+                  <a href="#" class="">
+                    <img src="@/assets/billeder/eventoversigt-beyond.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  </a>
+                </RouterLink>
+               
               </div>
                 
             </div>
