@@ -9,6 +9,7 @@ const getPortfolio = () => {
       category: "Web",
       image: "../src/assets/billeder/Dreams-logo.jpg",
       imageTwo: "../src/assets/billeder/dreams-lotion.jpg",
+      imageThree: "../src/assets/billeder/mockup-pc-dreams.jpg",
       link: "https://www.google.com",
       github: "https://www.google.com",
       tech: "Vue, Tailwind, Node, Express, MongoDB",
