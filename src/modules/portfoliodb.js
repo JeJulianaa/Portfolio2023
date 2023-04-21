@@ -35,6 +35,7 @@ const getPortfolio = () => {
       description: "Projekt uge, hvor vi skulle city brande Esbjerg",
       category: "Video",
       image: "../src/assets/billeder/Beyond-ebjergCover.png",
+      imageTwo: "../src/assets/billeder/eventoversigt-beyond.jpg",
       link: "https://www.google.com",
       yt: "https://youtu.be/2rUKgN9EEGM",
       github: "https://www.google.com",
@@ -46,8 +47,8 @@ const getPortfolio = () => {
     {
       id: 4,
       title: "BioVers",
-      description: "UX og UI: udarbejdet udkast af en biograf App ",
-      category: "Photoshop",
+      description: "UX og UI: udarbejdet en prototype af en biograf App ",
+      category: "UX/UI",
       image: "https://placehold.jp/150x150.png",
       link: "https://www.google.com",
       github: "https://www.google.com",

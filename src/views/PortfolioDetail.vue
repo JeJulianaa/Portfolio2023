@@ -54,9 +54,9 @@
             </div>
             <div class="w-full lg:w-1/2 px-4 ">
               <!-- Content for the right column goes here -->
-              <div class="w-1/2 flex">
-                <img :src="portfolioDetails.image" alt="image" class="rounded-lg" >
-                <img :src="portfolioDetails.image" alt="image" class="rounded-lg" >
+              <div :class="imageClass">
+                <img :src="portfolioDetails.image" alt="image" class="rounded-lg" v-if="portfolioDetails.image">
+                <img :src="portfolioDetails.imageTwo" alt="image" class="rounded-lg" v-if="portfolioDetails.imageTwo" >
               </div>
               
             </div>
@@ -74,6 +74,7 @@
 
 
 <script setup>
+
 import { toRefs, computed } from 'vue'
 import portfoliodb from '../modules/portfoliodb';
 
@@ -92,12 +93,29 @@ const router = useRouter()
 
   // part 3 - filter state on id -> must be computed to work with v-for
   const portfolioDetails = computed(() => { 
-    return state.value.find(item => item.id == id.value)
-  })
+    return state.value.find(item => item.id == id.value);
+
+  });
+  
+  const imageClass = computed(() => {
+    if (portfolioDetails.value.image && portfolioDetails.value.imageTwo) {
+      return 'w-1/2 flex';
+    } else if (portfolioDetails.value.image) {
+      return 'w-full';
+    } else {
+      return '';
+    }
+  });
+
+
+  
+
 
   const goBack = () => {
     router.go(-1)
   } 
+
+  
 </script>
 
 <style lang="scss">
