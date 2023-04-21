@@ -23,11 +23,7 @@
                 </p>
                 
                 <br>
-                <p>
-                  Youtube Video:<a :href="portfolioDetails.yt">
-                  {{ portfolioDetails.yt }}
-                </a>
-                </p>
+                
                 LinkedIn:
                 <a :href="portfolioDetails.link">
                   {{ portfolioDetails.link }}
@@ -39,6 +35,11 @@
                 </a>
                 <p>
                   TechStack: {{ portfolioDetails.tech }}
+                </p>
+                <p  v-if="portfolioDetails.yt">
+                  Youtube Video:<a :href="portfolioDetails.yt">
+                  {{ portfolioDetails.yt }}
+                </a>
                 </p>
                 <p>
                   Sammen arbejdet med: {{ portfolioDetails.gruppe }}
@@ -52,14 +53,14 @@
               
               
             </div>
-            <div class="w-full lg:w-1/2 px-4 ">
-              <!-- Content for the right column goes here -->
-              <div :class="imageClass">
-                <img :src="portfolioDetails.image" alt="image" class="rounded-lg" v-if="portfolioDetails.image">
-                <img :src="portfolioDetails.imageTwo" alt="image" class="rounded-lg" v-if="portfolioDetails.imageTwo" >
-              </div>
-              
+            <div class="w-full lg:w-1/2 px-4">
+            <!-- Content for the right column goes here -->
+            <div :class="imageClass" class="flex flex-wrap overflow-hidden ">
+              <img :src="portfolioDetails.image" alt="image" class="rounded-lg object-cover w-3/4 mr-2 mb-2" v-if="portfolioDetails.image">
+                <img :src="portfolioDetails.imageTwo" alt="image" class=" rounded-lg object-cover w-full lg:w-40 mb-2" v-if="portfolioDetails.imageTwo" >
+                <img :src="portfolioDetails.imageThree" alt="image" class="rounded-lg w-full lg:w-[95%]" v-if="portfolioDetails.imageThree">
             </div>
+          </div>
           </div>
           <div class="m-3 mt-2 p-2 px-4">
             
@@ -98,14 +99,17 @@ const router = useRouter()
   });
   
   const imageClass = computed(() => {
-    if (portfolioDetails.value.image && portfolioDetails.value.imageTwo) {
-      return 'w-1/2 flex';
-    } else if (portfolioDetails.value.image) {
-      return 'w-full';
-    } else {
-      return '';
-    }
-  });
+    if (portfolioDetails.value.image && portfolioDetails.value.imageTwo && portfolioDetails.value.imageThree) {
+    return 'w-full flex flex-col-2';
+  } else if (portfolioDetails.value.image && portfolioDetails.value.imageTwo) {
+    return 'w-full flex';
+  } else if (portfolioDetails.value.image) {
+    return 'w-full';
+  } else {
+    return '';
+  }
+});
+  
 
 
   
