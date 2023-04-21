@@ -22,15 +22,14 @@
    </div> 
    <br>
 
-   <div class="portfolio-container ">
-      <div class="portfolio-item"  v-for="item in state" :key="item">
+   <div class="portfolio-container w-full ">
+      <div class="portfolio-item w-full"  v-for="item in state" :key="item">
         <p class="category" :class="item.category">
-          {{ item.category }}
+          {{ item.category }} 
         </p>
+        
         <h4>{{ item.title }} - id:  {{ item.id }}</h4>
-        <p>
-          {{ item.description }}
-        </p>
+        
         <div class="overflow-hidden rounded-lg">
           <img :src="item.image" alt="image"  class="w-full h-38 object-cover">
         </div>
@@ -48,8 +47,9 @@
         <br>
 
         <!-- part 3 -->
-        <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">UserDetails</RouterLink>
-      
+        <button>
+          <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">Se Mere</RouterLink>
+       </button>
       </div>
     </div>
 

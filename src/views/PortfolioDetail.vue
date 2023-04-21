@@ -8,16 +8,16 @@
       <!-- v-for on state -->
       <!--   <div class="portfolio-item" v-for="item in portfolioDetails" :key="item"> -->
       <div class="w-full ">
-          <div class="flex flex-wrap justify-center ">
+          <div class="portfolio-container flex flex-wrap justify-center w-full ">
             <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4  ">
               <!-- Content for the left column goes here -->
               <div class="portfolio-item" v-if="portfolioDetails" >
-               <p class="category" :class="portfolioDetails.category">
+               <p class="category " :class="portfolioDetails.category">
                   {{ portfolioDetails.category }}
                 </p>
                 
-                <h4 class="text-5xl">{{ portfolioDetails.title }} - id:  {{ portfolioDetails.id }}</h4>
-                <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Beskrivelse</p>
+                <h4 class="text-4xl pb-4">{{ portfolioDetails.title }} - id:  {{ portfolioDetails.id }}</h4>
+                <p class="homeTextTwo pt-4 xs:pt-0 pb-1">Beskrivelse</p>
                 <p>
                   {{ portfolioDetails.description }}
                 </p>
@@ -34,7 +34,7 @@
                   {{ portfolioDetails.github }}
                 </a>
                 <p>
-                  TechStack: {{ portfolioDetails.tech }}
+                  Programmer: {{ portfolioDetails.tech }}
                 </p>
                 <p  v-if="portfolioDetails.yt">
                   Youtube Video:<a :href="portfolioDetails.yt">
@@ -56,9 +56,9 @@
             <div class="w-full lg:w-1/2 px-4">
             <!-- Content for the right column goes here -->
             <div :class="imageClass" class="flex flex-wrap overflow-hidden ">
-              <img :src="portfolioDetails.image" alt="image" class="rounded-lg object-cover w-3/4 mr-2 mb-2" v-if="portfolioDetails.image">
-                <img :src="portfolioDetails.imageTwo" alt="image" class=" rounded-lg object-cover w-full lg:w-40 mb-2" v-if="portfolioDetails.imageTwo" >
-                <img :src="portfolioDetails.imageThree" alt="image" class="rounded-lg w-full lg:w-[95%]" v-if="portfolioDetails.imageThree">
+              <img :src="portfolioDetails.image" alt="image" class="rounded-lg object-fill lg:w-[48%] m-1" v-if="portfolioDetails.image">
+                <img :src="portfolioDetails.imageTwo" alt="image" class=" rounded-lg object-fill w-full lg:w-[48%] m-1" v-if="portfolioDetails.imageTwo" >
+                <img :src="portfolioDetails.imageThree" alt="image" class="rounded-lg w-full lg:w-[98%]" v-if="portfolioDetails.imageThree">
             </div>
           </div>
           </div>
@@ -122,6 +122,9 @@ const router = useRouter()
   
 </script>
 
-<style lang="scss">
-
+<style >
+.portfolio-item{
+  width: fit-content;
+  color: aqua;
+}
 </style>
