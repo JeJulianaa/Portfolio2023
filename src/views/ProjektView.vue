@@ -3,25 +3,16 @@
   <div class="projekt">
    <!--  {{ state }} -->
    <div>
-    <!-- part 0 -->
+      <!-- part 0 -->
   
 
-    <!-- part 1 -->
-    <div class="w-full hero-side mx-auto flex justify-center   text-center text-[#5F5F5F] bg-[#1A1A1A]  py-2  ">
+      <!-- part 1 -->
+      <div class="w-full hero-side mx-auto flex justify-center   text-center text-[#5F5F5F] bg-[#1A1A1A]  py-2  ">
         <h1>Projekter</h1>
       </div>
-      <p>Here is a list of my projects</p>
-      
-      <br>
-    
-      <div>
-        <p>Future filter on category or a search bar</p>
-        <p>Future sort by date or completed</p>
-      </div>
-   
+      <p class="mine-projekter flex ">Her er en liste over nogen af de projekter jeg har lavet</p>
    </div> 
-   <br>
-
+  
    <div class="portfolio-container w-full ">
       <div class="portfolio-item w-full"  v-for="item in state" :key="item">
         <p class="category" :class="item.category">
@@ -33,12 +24,7 @@
         <div class="overflow-hidden rounded-lg">
           <img :src="item.image" alt="image"  class="w-full h-38 object-cover">
         </div>
-        <br>
-        LinkedIn:
-        <a :href="item.link">
-          {{ item.link }}
-        </a>
-        <br>
+     
        
         <p>
           Date: {{ item.date }}
@@ -71,7 +57,12 @@ const { state  } = portfoliodb()
 </script>
 
 <style>
-
+.mine-projekter{
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1rem 0 1rem;
+  margin: 1rem;
+}
 
   .about {
     min-height: 100%;
@@ -88,8 +79,10 @@ const { state  } = portfoliodb()
     margin: 1rem;
     padding: 1rem;
   
-    max-width: 260px;
+    max-width: 400px;
     max-height: fit-content;
+
+    font-size: 1.5rem;
   }
 
   .category {
