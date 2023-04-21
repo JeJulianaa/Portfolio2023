@@ -23,6 +23,11 @@
                 </p>
                 
                 <br>
+                <p>
+                  Youtube Video:<a :href="portfolioDetails.yt">
+                  {{ portfolioDetails.yt }}
+                </a>
+                </p>
                 LinkedIn:
                 <a :href="portfolioDetails.link">
                   {{ portfolioDetails.link }}
@@ -47,11 +52,11 @@
               
               
             </div>
-            <div class="w-full lg:w-1/2 px-4">
+            <div class="w-full lg:w-1/2 px-4 ">
               <!-- Content for the right column goes here -->
-              <div>
-                <img :src="portfolioDetails.image" alt="image" class="m-2 p-2" >
-                
+              <div class="w-1/2 flex">
+                <img :src="portfolioDetails.image" alt="image" class="rounded-lg" >
+                <img :src="portfolioDetails.image" alt="image" class="rounded-lg" >
               </div>
               
             </div>

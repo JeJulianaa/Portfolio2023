@@ -31,8 +31,9 @@
         <p>
           {{ item.description }}
         </p>
-        <img :src="item.image" alt="image" width="400" height="400">
-        
+        <div class="overflow-hidden rounded-lg">
+          <img :src="item.image" alt="image"  class="w-full h-38 object-cover">
+        </div>
         <br>
         LinkedIn:
         <a :href="item.link">

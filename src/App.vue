@@ -237,8 +237,6 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 
-  .hero-side{
-    size: 5rem;
-  }
+  
 }
 </style>
