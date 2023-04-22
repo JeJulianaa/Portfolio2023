@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </Transition>   -->
 
   <!--space between section and contact-->
-  <div class="h-20 bg-[#1A1A1A]">
+  <div class="h-1 bg-[#1A1A1A]">
 
   </div>
   <hr class="border-2">
@@ -65,7 +65,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
         </div>
 
-  <footer class="bg-[#CFC9C9] text-white">
+  <footer class="bg-[#2F2F31] text-white">
     <hr class="border-2">
   
     <div class="container mx-auto px-4 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
@@ -73,13 +73,13 @@ import { RouterLink, RouterView } from 'vue-router'
         <h4 class="text-lg font-bold">Contact Us</h4>
         <ul class="mt-4">
           <li>
-            <span class="text-gray-400">Phone:</span> 555-555-5555
+            <span class="text-gray-400">Phone:</span> 21 16 38 58
           </li>
           <li>
-            <span class="text-gray-400">Email:</span> email
+            <span class="text-gray-400">Email:</span> Alberte.torbensen@gmail.com
           </li>
           <li>
-            <span class="text-gray-400">Address:</span> 123 Main St, Anytown USA
+            <span class="text-gray-400">Address:</span> Esbjerg 6700
           </li>
         </ul>
       </div>

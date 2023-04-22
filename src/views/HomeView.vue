@@ -8,8 +8,8 @@
   
   <main class="bg-[#1A1A1A]" >
     <div class="w-full flex justify-end">
-          <div class="flex flex-wrap justify-end">
-            <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4">
+          <div class="flex flex-wrap justify-end pb-2">
+            <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-2">
               <!-- Content for the left column goes here -->
               <h1 class="homeTextOne mitNavn"> Mit navn er </h1>
                 <h1 class="AlberteT homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
@@ -36,14 +36,44 @@
 
         <hr class="border-2">
         <!--section1 photo-->
-        <div class="h-20 bg-[#1A1A1A]">
+        <div class="h-1 bg-[#1A1A1A]">
 
         </div>
         <div class="w-full flex justify-end">
       
 
-          <div class="sections flex flex-wrap w-5/6 justify-end">
-            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
+          <div class="w-full sections flex flex-wrap w-5/6 justify-end">
+            <div class="w-full lg:w-[60%] pb-2  lg: py-5" >
+              <!-- Content for the left column goes here -->
+              <div class="border-4 border-[#2E2E30] rounded-lg text-center pt-[11%] h-full">
+                <h1 class="text-7xl  text-center text-[#E44A8C]">
+                Fremhævede <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">Projekter</h1>
+                </h1>
+              <p class="text pb-8">
+       
+              </p>
+               
+             </div>
+            </div>
+            <div class="w-full lg:w-[40%] pt-1">
+              <!-- Content for the right column goes here -->
+              <div class="w-full childTwo pl-2 py-2 pt-4  rounded-lg">
+                <RouterLink to="/portfoliodetail/1">
+                  <a href="#" class="">
+                    <img src="@/assets/billeder/Mockup-pc-dreams.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                  </a>
+                </RouterLink>
+              </div>
+                
+            </div>
+          </div>
+        </div>
+        
+      <!--section 2 big photo-->
+
+      <div class="w-full flex justify-end ">
+          <div class=" flex flex-wrap justify-end pt-1">
+            <div class="w-full h-auto lg:w-1/2 px-[8rem] lg:mb-0  py-4 border-4  rounded-lg border-[#2E2E30]" >
               <!-- Content for the left column goes here -->
               <h1 class="text-5xl text-[#FFE6A7] pt-2">
                 Branding med et kreativ twist </h1>
@@ -60,40 +90,11 @@
                   Om Mig
                 </button>
              </RouterLink>
+            
             </div>
-            <div class="w-full lg:w-1/2 px-4">
+            <div class="w-full lg:w-1/2 pl-2">
               <!-- Content for the right column goes here -->
-              <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
-                <RouterLink to="/portfoliodetail/1">
-                  <a href="#" class="">
-                    <img src="@/assets/billeder/Mockup-pc-dreams.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                  </a>
-                </RouterLink>
-              </div>
-                
-            </div>
-          </div>
-        </div>
-        
-      <!--section 2 big photo-->
-
-      <div class="w-full flex justify-end ">
-          <div class="flex flex-wrap justify-end ">
-            <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
-              <!-- Content for the left column goes here -->
-              <div class="border-4 border-[#FFE6A7] rounded-lg py-20 pt-[34%] h-full">
-                <h1 class="text-5xl  text-center text-[#E44A8C]">
-                Fremhævede <h1 class="text-5xl px-12 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">Projekter</h1>
-                </h1>
-              <p class="text pb-8">
-       
-              </p>
-               
-             </div>
-            </div>
-            <div class="w-full lg:w-1/2 px-4">
-              <!-- Content for the right column goes here -->
-              <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+              <div class="childTwo   pl-1  h-fit rounded-lg">
                 
                 <RouterLink to="/portfoliodetail/2">
                   <a href="#" class="">
@@ -111,18 +112,19 @@
       
 
       <!--section3 photo-->
-      <div class="w-full flex justify-end">
-          <div class="flex flex-wrap w-5/6 justify-end ">
-            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
+      <div class="w-full flex  justify-end">
+          <div class="flex flex-wrap  justify-end  lg: py-3 pb-6">
+            
+            <div class="w-full border-4 border-[#2E2E30] rounded-lg lg:w-[60%] px-[8rem] pr-2 lg:mb-0 py-2 " >
+             
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-4">
-                Se flere af mine projekt
+              <h1 class="text-5xl pt-4  ">
+                Se flere af mine projekter
              </h1>
                <p class="text pb-1">
-               Som multimediedesigner og content creator bringer 
-               jeg et nyt perspektiv til hvert projekt.
-               Med færdigheder inden for UX/UI, content creation, 
-               web development og en dedikation til at holde sig op to-date med de nyeste trends.
+               du kan finde flere af mine projekter inde under "projekter"
+                Hvis du har spørgsmål omkring nogen af mine projekter eller om andre ting, så er du velkommen til at kontakte mig. 
+                Du kan finde mine kontakt oplysninger under "kontakt"
               </p>
               <RouterLink to="/projekt">
                 <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
@@ -130,9 +132,9 @@
                 </button>
              </RouterLink>
             </div>
-            <div class="w-full lg:w-1/2 px-4">
+            <div class="w-full lg:w-[40%] ">
               <!-- Content for the right column goes here -->
-              <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
+              <div class="w-full childTwo  rounded-lg px-2">
                 <RouterLink to="/portfoliodetail/3">
                   <a href="#" class="">
                     <img src="@/assets/billeder/eventoversigt-beyond.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
