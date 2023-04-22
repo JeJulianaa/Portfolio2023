@@ -78,38 +78,76 @@
 
 
           <div class="w-full sections flex flex-wrap w-5/6  py-2">
-            <div class="w-full lg:w-[60%] pb-2 " >
+            <div class="w-full lg:w-[70%] pl-4 pb-2 " >
               <!-- Content for the left column goes here -->
               <div class="border-4 border-[#2E2E30] rounded-lg  pt-[2%] px-20 h-full">
                 
                
-              <h1 class="text-2xl  text-[#E44A8C]"> 
+              <h1 class="text-5xl pt-6 text-[#E44A8C]"> 
                   mine færdigheder </h1>
                   
-                  <p class="text pb-8">
-                    Her ser du hvilke ting jeg har færdigheder i, hvis du er interrestert i mine erfaringer eller uddannelser kan du finde dette i min CV som du kan download ved at klikke på knappen "hent CV"
+                  <p class="text-md pt-2 pb-10">
+                    Her ser du hvilke ting jeg har færdigheder i, hvis du er interrestert i mine erfaringer 
+                    <br> eller uddannelser kan du finde dette i min CV som du kan download ved at klikke 
+                    <br> på knappen "hent CV"
 
                     <br>
-                    <div>
-                      <p>
-                        Content creation
-                          <br>
-                          Braning/rebranding
-                          social 
-                          <br>
-                          medie management
-                          <br>
-                          Grafisk design
+                  <div class="flex pb-10">
+                        <div class="pr-20">
+                          <p class="text-2xl">Content creation</p>
+                          <ul class="list-disc pl-4">
+                            <li>Braning/rebranding
+                              social
+                            </li>
+                            <li>Medie management</li>
+                            <li>Grafisk design</li>
+                          </ul>
+                      </div>
+                      <div class="pr-20">
+                        <ul class="list-disc">
+                          <p class="text-2xl">UX/UI design</p>
+                            <li>Branding strategi, analysemodeller.
+                            </li>
+                            <li>medie management</li>
+                            <li>Grafisk design</li>
+                            <li>Skabe brugervenlighed og 
+                              <br>forbedre brugeroplevelsen.</li>
+                         </ul>
+                      </div>
 
-                      </p>
+                      <div class="pr-20">
+                        <ul class="list-disc">
+                            <p class="text-2xl">Web Udvikle</p>
+                            <li>Web Designe og udvikle hjemmesider</li>
+                            <li>Kodning - html, CSS, Javascript,
+                              <br>  Vue, Wordpress, Tailwind CSS, Boostrap
+                            </li>
+                         </ul>
+                      </div>
+
+                      <div class="pr-10">
+                        <ul class="list-disc">
+                          <p class="text-2xl">Adobe Programmer</p>
+                            <li>Photoshop
+                            </li>
+                            <li>InDesign</li>
+                            <li>Illustrator</li>
+                            <li>XD Design</li>
+                            <li>After Effect</li>
+                            <li>Premiere Pro</li>
+                         </ul>
+                      </div>
+
+                    
+                    
                   </div>
                     
                   </p>
-                  <div class="flex">
-                      <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
+                  <div class="flex pb-12 pt-5">
+                      <button class="w-1/2 glow-button homeButtonProjekt  text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ">
                       Hent CV
                       </button>
-                      <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
+                      <button class="w-1/2 glow-button homeButtonProjekt   text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
                         LinkedIn
                       </button>
                     </div>
