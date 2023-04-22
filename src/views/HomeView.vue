@@ -13,7 +13,7 @@
               <!-- Content for the left column goes here -->
               <h1 class="homeTextOne mitNavn"> Mit navn er </h1>
                 <h1 class="AlberteT homeTextOne pt-1 xs:pt-0">Alberte Torbensen</h1>
-                <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Jeg er content Creator</p>
+                <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Multi Medie Designer</p>
               
                 <RouterLink to="/projekt">
                   <button class="w-3/4 glow-button homeButtonProjekt text-center  border-4  rounded-lg p-4 lg:p-6 lg:mt-10 ">
@@ -45,10 +45,11 @@
           <div class="sections flex flex-wrap w-5/6 justify-end">
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-2">
-                Multi medie designer
-             </h1>
-               <p class="text pb-2">
+              <h1 class="text-5xl text-[#FFE6A7] pt-2">
+                Branding med et kreativ twist </h1>
+
+             
+              <p class="text-slate-50 pb-2">
                Som multimediedesigner og content creator bringer 
                jeg et nyt perspektiv til hvert projekt.
                Med færdigheder inden for UX/UI, content creation, 
@@ -80,15 +81,12 @@
           <div class="flex flex-wrap justify-end ">
             <div class="w-full h-auto lg:w-2/5 px-4 mb-4 lg:mb-0  py-4" >
               <!-- Content for the left column goes here -->
-              <div class="border-4 rounded-lg py-20 h-full">
-                <h1 class="text-5xl  text-center">
-                  Fremhævede Projekter
-              </h1>
+              <div class="border-4 border-[#FFE6A7] rounded-lg py-20 pt-[34%] h-full">
+                <h1 class="text-5xl  text-center text-[#E44A8C]">
+                Fremhævede <h1 class="text-5xl px-12 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">Projekter</h1>
+                </h1>
               <p class="text pb-8">
-               Som multimediedesigner og content creator bringer 
-               jeg et nyt perspektiv til hvert projekt.
-               Med færdigheder inden for UX/UI, content creation, 
-               web development og en dedikation til at holde sig op to-date med de nyeste trends.
+       
               </p>
                
              </div>
@@ -118,7 +116,7 @@
             <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
               <h1 class="text-5xl pt-4">
-                Multi medie designer
+                Se flere af mine projekt
              </h1>
                <p class="text pb-1">
                Som multimediedesigner og content creator bringer 
@@ -172,7 +170,7 @@
   color: rgb(67, 236, 255);
 }
 .AlberteT{
-  color: rgb(253, 125, 178);
+  color: rgb(251, 108, 167);
 }
 
 
@@ -204,6 +202,9 @@
   .homeTextOne{
   font-size: 2rem;
   }
+  
+  h1{
+    font-family: "neon";}
  
 }
 @media (min-width: 640px) {
@@ -213,25 +214,32 @@
   .homeButtomProjekt {
     font-size: 2rem;
   }
-
+  h1{
+    font-family: "neon";}
 }
 
 @media (min-width: 768px) {
   .homeTextOne{
   font-size: 2.6rem;
   }
+  h1{
+    font-family: "neon";}
 }
 
 @media (min-width: 1024px) {
   .homeTextOne{
   font-size: 3.3rem;
   }
+  h1{
+    font-family: "neon";}
 }
 
 @media (min-width: 1280px) {
   .homeTextOne{
   font-size: 3rem;
   }
+  h1{
+    font-family: "neon";}
   
 }
 </style>

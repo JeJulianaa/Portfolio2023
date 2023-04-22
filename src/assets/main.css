@@ -76,6 +76,52 @@ a,
    h1{
     font-family: "neon";
   }
+  @media (min-width: 350px) {
+    .homeTextOne{
+    font-size: 1rem;
+    }
+    .homeButtomProjekt {
+      font-size: 1rem;
+    }
+   
+  
+  }
+  
+  @media (min-width: 768px) {
+    .homeTextOne{
+    font-size: 2rem;
+    }
+    
+    h1{
+      font-family: "neon";}
+   
+  }
+  @media (min-width: 640px) {
+   
+   
+    h1{
+      font-family: "neon";}
+  }
+  
+  @media (min-width: 768px) {
+    
+    h1{
+      font-family: "neon";}
+  }
+  
+  @media (min-width: 1024px) {
+    
+    h1{
+      font-family: "neon";}
+  }
+  
+  @media (min-width: 1280px) {
+    
+    h1{
+      font-family: "neon";}
+    
+  }
+  </style>
 
   button{
     font-family: "neon";
