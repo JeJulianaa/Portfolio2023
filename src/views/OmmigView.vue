@@ -21,9 +21,7 @@
                     
                   </p>
                  
-                <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
-                  Hent CV
-                </button>
+                
               </div>
 
               </div>
@@ -39,30 +37,44 @@
               </div>
             </div>
           </div>
-
           
 
-          <!--section1 photo-->
+          
+          
+
+          <!--section1 om mig og færdigheder-->
         <div class="h-1 bg-[#1A1A1A]">
 
         </div>
         <div class="w-full flex justify-end">
 
 
-          <div class="w-full sections flex flex-wrap w-5/6 justify-end ">
-            <div class="w-full lg:w-[60%] pb-2  lg: py-5" >
+          <div class="w-full sections flex flex-wrap w-5/6 justify-end py-2">
+            <div class="w-full lg:w-[60%] pb-2 " >
               <!-- Content for the left column goes here -->
-              <div class="border-4 border-[#2E2E30] rounded-lg text-center pt-[11%] h-full">
-                <h1 class="text-7xl  text-center text-[#E44A8C]">
-                  <h1> Hvorfor valgte jeg at blive multi medie designer? </h1>
+              <div class="border-4 border-[#2E2E30] rounded-lg  pt-[2%] px-20 h-full">
+                
+               
+              <h1 class="text-2xl  text-[#E44A8C]"> 
+                  mine færdigheder </h1>
+                  
                   <p class="text pb-8">
                     inden jeg startet på mit studie har jeg nørdet i adobes programmer siden jeg var 14 år.
                     Jeg elsker at være computer, tage billeder/video og være kreativ så at være multi medie designer er noget jeg virkelig brænder for!
                     <br>
                     
                   </p>
-                </h1>
-                <h1 class="text-5xl text-[#FFE6A7] pt-2">
+                
+                  <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
+                  Hent CV
+                </button>
+            </div>
+
+            </div>
+            <div class="w-full lg:w-[40%] pt-1">
+              <!-- Content for the right column goes here -->
+              <div class="w-full childTwo pl-2 py-2 pt-4  rounded-lg">
+                <h1 class="text-2xl text-[#FFE6A7] pt-2">
                     dedikeret målorienteret glad Jordnær og kreativ
                   </h1>
                 <p>
@@ -77,42 +89,53 @@
                  
                    
                   </p>
-              <p class="text pb-8">
-
-              </p>
               
-            </div>
-            </div>
-            <div class="w-full lg:w-[40%] pt-1">
-              <!-- Content for the right column goes here -->
-              <div class="w-full childTwo pl-2 py-2 pt-4  rounded-lg">
-                <RouterLink to="/portfoliodetail/1">
-                  <a href="#" class="">
-                    <img src="@/assets/billeder/Mockup-pc-dreams.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                  </a>
-                </RouterLink>
               </div>
                 
             </div>
           </div>
         </div>
           
+            <!--cv setion-->
+          <div class="w-full flex justify-end">
 
 
-          <!--section 2 big photo-->
+            <div class="w-full sections flex flex-wrap w-5/6 justify-end ">
+              <div class="w-full lg:w-[60%] pb-2 " >
+                <!-- Content for the left column goes here -->
+                <div class="border-4 border-[#2E2E30] rounded-lg text-center pt-[11%] h-full">
+                  <h1 class="text-7xl  text-center text-[#E44A8C]">
+                  Video <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">CV</h1>
+                  </h1>
+                <p class="text pb-8">
+
+                </p>
+                
+              </div>
+              </div>
+              <div class="w-full lg:w-[40%] pl-2 py-2 pt-1">
+                <!-- Content for the right column goes here -->
+                <div class="w-[46%] childTwo rounded-lg">
+                  <iframe width="742" height="417" src="https://www.youtube.com/embed/2MA9uxZqyaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+
+
+          <!--section en holdspiller-->
 
           <div class="w-full flex justify-end ">
               <div class="boxreverse flex flex-wrap  justify-end pt-1 ">
                 <div class="w-full h-auto lg:w-1/2 px-[8rem] lg:mb-0  py-4 border-4  rounded-lg border-[#2E2E30]" >
                   <!-- Content for the left column goes here -->
-                  <h1 class="text-5xl text-[#FFE6A7] pt-2">
-                    dedikeret målorienteret glad Jordnær og kreativ
+                  <h1 class="text-2xl text-[#FFE6A7] pt-2">
+                    En holdspiller
                   </h1>
                   
-                 <p>
-                  
-                 
-                   <h1>En holdspiller</h1>
+               
+                
                     <p> 
                       Vi alle forskellige og vi tænker ikke ens, hvilke jeg kun ser postivtit på. det er sådan man får de bedste 
                       ideer. Når jeg arbejder i teams, er min rolle ofte koordinatoren, og den der holder struktur/overblik.
@@ -122,7 +145,7 @@
                       men også selvstændigt
                       har spørgsmål er du velkommen til at kontakte mig. 
                     </p>
-                  </p>
+                 
                   
                   
                 
@@ -149,31 +172,8 @@
            <div class="h-1 bg-[#1A1A1A]">
 
           </div>
-          <div class="w-full flex justify-end">
 
-
-            <div class="w-full sections flex flex-wrap w-5/6 justify-end ">
-              <div class="w-full lg:w-[55%] pb-2  lg: py-5" >
-                <!-- Content for the left column goes here -->
-                <div class="border-4 border-[#2E2E30] rounded-lg text-center pt-[11%] h-full">
-                  <h1 class="text-7xl  text-center text-[#E44A8C]">
-                  Video <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">CV</h1>
-                  </h1>
-                <p class="text pb-8">
-
-                </p>
-                
-              </div>
-              </div>
-              <div class="w-full lg:w-[44%] pt-1">
-                <!-- Content for the right column goes here -->
-                <div class="w-full childTwo pl-2 py-2 pt-4  rounded-lg">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/2MA9uxZqyaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                  
-              </div>
-            </div>
-          </div>
+          
   </main>
 </template>
 

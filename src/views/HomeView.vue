@@ -142,11 +142,7 @@
                 </RouterLink>
                
               </div>
-              <div class="neon-btn">
-                  <span class="neon-text">
-                      H<span class="faulty-letter">C</span>ODE
-                  </span>
-              </div>
+             
             </div>
           </div>
         </div>
