@@ -16,10 +16,7 @@
                     Fremhævede Projekter
                 </h1>
                 <p class="text pb-8">
-                Som multimediedesigner og content creator bringer 
-                jeg et nyt perspektiv til hvert projekt.
-                Med færdigheder inden for UX/UI, content creation, 
-                web development og en dedikation til at holde sig op to-date med de nyeste trends.
+                Hvorfor min uddannelse
                 </p>
                 <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
                   Hent CV

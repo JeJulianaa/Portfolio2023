@@ -51,7 +51,9 @@ a,
   }
 
   .glowbutton{
-   
+  
+      font-family: "neon";
+    
   }
   .glow-button:hover {
     color: rgb(67, 236, 255);
@@ -69,10 +71,8 @@ a,
     transition: all 0.3s ease-in-out;
     border-color: aliceblue;
     text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);;
-   
+     }
 
-    
-   }
    h1{
     font-family: "neon";
   }
@@ -81,9 +81,19 @@ a,
     font-size: 1rem;
     }
     .homeButtomProjekt {
-      font-size: 1rem;
+      color: rgb(2, 106, 118);
+      border-color: rgb(2, 106, 118);
     }
-   
+    button{
+      font-family: "neon";
+      color: rgb(2, 106, 118);
+      border-color: rgb(2, 106, 118);
+     
+      font-family: "neon";
+    }
+    h1{
+      font-family: "neon";
+    }
   
   }
   
@@ -94,6 +104,13 @@ a,
     
     h1{
       font-family: "neon";}
+
+      button{
+        font-family: "neon";
+        color: rgb(2, 106, 118);
+        border-color: rgb(2, 106, 118);
+      
+      }
    
   }
   @media (min-width: 640px) {
@@ -107,12 +124,20 @@ a,
     
     h1{
       font-family: "neon";}
+
+      
   }
   
   @media (min-width: 1024px) {
     
     h1{
       font-family: "neon";}
+      button{
+        font-family: "neon";
+        color: rgb(2, 106, 118);
+        border-color: rgb(2, 106, 118);
+        font-size: 3rem;
+      }
   }
   
   @media (min-width: 1280px) {
@@ -120,11 +145,16 @@ a,
     h1{
       font-family: "neon";}
     
+      .homeTextOne{
+        font-size: 3rem;
+        }
+      
   }
   button{
     font-family: "neon";
     color: rgb(2, 106, 118);
     border-color: rgb(2, 106, 118);
+    font-size: 3rem;
   }
  
 
