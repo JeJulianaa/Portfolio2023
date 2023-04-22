@@ -20,22 +20,24 @@
         </p>
         
         <h4>{{ item.title }} - id:  {{ item.id }}</h4>
+        <button class="button-yellow border-4 rounded-lg">
+          <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">
+            <div class="overflow-hidden rounded-lg">
+              <img :src="item.image" alt="image"  class="w-full h-38 object-cover">
+            </div>
+          </RouterLink>
+       </button>
         
-        <div class="overflow-hidden rounded-lg">
-          <img :src="item.image" alt="image"  class="w-full h-38 object-cover">
-        </div>
      
        
-        <p>
-          Date: {{ item.date }}
+        <p class="projektview">
+          Dato: {{ item.date }}
         </p>
         
-        <br>
+       
 
         <!-- part 3 -->
-        <button>
-          <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">Se Mere</RouterLink>
-       </button>
+       
       </div>
     </div>
 
@@ -62,6 +64,10 @@ const { state  } = portfoliodb()
   color: rgb(255, 255, 255);
   padding: 1rem 1rem 0 1rem;
   margin: 1rem;
+}
+.projektview{
+  font-family: "neon";
+  font-size: 1.1rem;
 }
 
   .about {

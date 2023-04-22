@@ -5,17 +5,16 @@ const getPortfolio = () => {
     {
       id: 1,
       title: "Dreams",
-      description: "This is my portfolio",
+      description: "1 semester projoktet i faget web development. Jeg fik jeg til opgave at lave en XD prototype og kode en funktionel forside i HTML CSS og bruge frameworket boostrap. Jeg valgte selv at opdigte et hudpleje brand som jeg kaldte DREAMS, jeg både har lavet logo og produkter til websitet.",
       category: "Web",
       image: "../src/assets/billeder/Dreams-logo.jpg",
       imageTwo: "../src/assets/billeder/dreams-lotion.jpg",
       imageThree: "../src/assets/billeder/mockup-pc-dreams.jpg",
       link: "https://www.google.com",
-      github: "https://www.google.com",
-      tech: "Vue, Tailwind, Node, Express, MongoDB",
-      date: "2021-03-21",
-      completed: true,
-      complete: "complete"
+      github: "https://github.com/JeJulianaa/JeJulianaa.github.io",
+      tech: "Boostrap, HTML, CSS, Photoshop, illustrator",
+      date: "2021-23-11",
+      
     },
     {
       id: 2,

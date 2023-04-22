@@ -24,28 +24,30 @@
                 
                 <br>
                 
-                LinkedIn:
-                <a :href="portfolioDetails.link">
-                  {{ portfolioDetails.link }}
-                </a>
+               
+               
                 <br>
-                Github:
+                <h1>Github:</h1>
                 <a :href="portfolioDetails.github">
                   {{ portfolioDetails.github }}
                 </a>
+               
                 <p>
-                  Programmer: {{ portfolioDetails.tech }}
+                  <br>
+                  <h1>Programmer:</h1> {{ portfolioDetails.tech }}
                 </p>
+                <br>
                 <p  v-if="portfolioDetails.yt">
                   Youtube Video:<a :href="portfolioDetails.yt">
                   {{ portfolioDetails.yt }}
                 </a>
                 </p>
-                <p>
+                <p v-if="portfolioDetails.gruppe">
                   Sammen arbejdet med: {{ portfolioDetails.gruppe }}
                 </p>
+                <br>
                 <p>
-                  Date: {{ portfolioDetails.date }}
+                  Dato: {{ portfolioDetails.date }}
                 </p>
               </div>  
               <div v-else>Loading...</div>
@@ -125,6 +127,6 @@ const router = useRouter()
 <style >
 .portfolio-item{
   width: fit-content;
-  color: aqua;
+  color: #E3E3E3;
 }
 </style>

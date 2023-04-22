@@ -142,7 +142,11 @@
                 </RouterLink>
                
               </div>
-                
+              <div class="neon-btn">
+                  <span class="neon-text">
+                      H<span class="faulty-letter">C</span>ODE
+                  </span>
+              </div>
             </div>
           </div>
         </div>
@@ -173,7 +177,12 @@
 }
 .AlberteT{
   color: rgb(251, 108, 167);
+  animation: flicker 0.5s ease-out both;
 }
+
+
+
+ 
 
 
 
@@ -251,5 +260,8 @@
     font-family: "neon";}
   
 }
+
+
+
 </style>
 
