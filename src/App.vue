@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template class="">
   <header class="">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="100" height="100" />
+    <img alt="" class="logo" src="#" width="100" height="100" />
 
     <div class="wrapper ">
 
@@ -40,7 +40,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <div class="flex flex-wrap -mx-4 ">
             <div class="w-full text-center px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-6 pb-2 text-[#00E51B]">
+              <h1 class="text-5xl pt-6 pb-2 text-[#E15600]">
                 Kontakt mig her
              </h1>
             
