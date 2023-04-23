@@ -36,35 +36,60 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
   <hr class="border-2">
   <!--section contact-->
-  <div class="container mx-auto px-4 pt-4 bg-[#212121]">
+  <div class=" mx-auto px-4 pt-4 bg-[#212121]">
           <div class="flex flex-wrap -mx-4 ">
-            <div class="w-full lg:w-1/2 px-4 mb-4 lg:mb-0 py-2" >
+            <div class="w-full text-center px-4 mb-4 lg:mb-0 py-2" >
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-20">
-                Multi medie designer
+              <h1 class="text-5xl pt-6 pb-2 text-[#00E51B]">
+                Kontakt mig her
              </h1>
-               <p class="text pb-8">
-               Som multimediedesigner og content creator bringer 
-               jeg et nyt perspektiv til hvert projekt.
-               Med færdigheder inden for UX/UI, content creation, 
-               web development og en dedikation til at holde sig op to-date med de nyeste trends.
-              </p>
-              <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
-                 Om Mig
-              </button>
-            </div>
-            <div class="w-full lg:w-1/2 px-4">
-              <!-- Content for the right column goes here -->
-              <div class="childTwo   pl-2 py-2 pt-4 pb-9 h-fit rounded-lg">
-                <a href="#" class="">
-                  <img src="@/assets/billeder/alberte-billede-home.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
-                </a>
+            
+             
+             <div class="w-full flex flex-wrap justify-center pt-10">
+                <div class="w-3/4 flex flex-col md:flex-row ">
+                  <div class="w-full md:w-1/3 ">
+                    <div class=" mx-auto  xl:mx-auto 2xl:mx-auto" >
+                      <img class="w-1/4 mx-auto  xl:mx-auto 2xl:mx-auto" src="@/assets/billeder/icon/mail-w.png" alt="">
+                    </div>
+                    <p class="text-xl  pt-4 pb-10">Alberte.torbensen@gmail.com</p>
+                  </div>
+                  <div class="w-full md:w-1/3 ">
+                      <div class=" mx-auto  xl:mx-auto 2xl:mx-auto" >
+                      <img class="w-1/4 mx-auto  xl:mx-auto 2xl:mx-auto" src="@/assets/billeder/icon/phone-w.png" alt="">
+                      </div>
+                    <p class="text-xl  pt-4 pb-10">+45 21 16 38 58</p>
+                  </div>
+                  
+                  <div class="w-full md:w-1/3 ">
+                    <a class="w-1/4 mx-auto  xl:mx-auto 2xl:mx-auto" href="https://www.linkedin.com/in/alberte-juliana-torbensen/">
+                     <img class="w-1/4 mx-auto  xl:mx-auto 2xl:mx-auto" src="@/assets/billeder/icon/linkedin-white.png" alt="">
+                   </a>
+                    <p class="text-xl pt-4">Alberte Juliana Torbensen</p>
+                  </div>
+                </div>
+                <hr class="w-[60%] mx-auto">
+                <div class="w-full pt-4">
+                  <p>
+                    Du er velkommen til at ringe, sende mig en besked eller skrive en mail til mig:
+                    <br> Alberte.torbensen@gmail.com
+                    Jeg glæder mig til at høre fra dig. 
+                    <br>
+                    <br> mvh.
+                  </p>
+                  <img class="w-[5%] mx-auto object-cover" src="@/assets/billeder/icon/a-underskrift.png" alt="">
+                </div>
               </div>
-                
             </div>
+            
           </div>
+          
+          <div class="w-full">
+            
+              
+            </div>
         </div>
 
+    <!--footer-->
   <footer class="bg-[#2F2F31] text-white">
     <hr class="border-2">
   
@@ -188,7 +213,8 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #888375;
+  
 }
 
 nav a.router-link-exact-active:hover {
@@ -199,6 +225,9 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  color: #FEF5DB;
+  font-family: "neon";
+
 }
 
 nav a:first-of-type {
@@ -237,6 +266,9 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 
+  body{
+    
+  }
   
 }
 </style>

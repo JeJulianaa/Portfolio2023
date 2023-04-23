@@ -121,7 +121,10 @@
     };
 
 
-        
+        .cv-video{
+          width: 200px;
+          height: 196px;
+      };
   
     }
   
@@ -182,7 +185,10 @@
         font-size: 3rem;
         };
 
-  
+    .cv-video{
+        width: 614;
+        height: 345;
+    };
       
   }
   button{

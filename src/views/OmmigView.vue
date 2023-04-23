@@ -17,11 +17,12 @@
                     <div class="childTwo  w-[70%] pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-[70%] xs:w-full sm:w-full ">
                       <div class=" childTwo rounded-lg h-full">
                         <div class="border-4 border-[#2E2E30] rounded-lg text-center p-36 h-full xs:p-3 ">
-                          <h1 class="text-4xl text-center pb-3 text-[#FFE6A7] pt-2">
-                              Beskrivelse af Mig
+                          <h1 class="text-4xl text-center pb-3 text-[#FAB100] pt-2">
+                              Hvem Er Jeg?
                            </h1>
+                           
                           
-                            <h1 class="text-2xl text-[#FFE6A7] pt-2">
+                            <h1 class="text-2xl text-[#E15600] pt-2">
                               dedikeret målorienteret glad Jordnær og kreativ
                             </h1>
 
@@ -39,7 +40,7 @@
                             </p>
                         
                             <br>
-                            <h1 class="text-2xl text-[#FFE6A7] pt-2">
+                            <h1 class="text-2xl text-[#E15600] pt-2">
                               Samler trådene
                             </h1>
                           
@@ -82,8 +83,8 @@
                   <div class="childTwo  w-1/2 pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-1/2 sm:w-full ">
                     <div class=" childTwo rounded-lg h-full">
                       <div class="border-4 border-[#2E2E30] rounded-lg text-center p-36 h-full">
-                          <h1 class="text-7xl text-center text-[#E44A8C]">
-                          Video <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">CV</h1>
+                          <h1 class="text-7xl text-center text-[#026A76]">
+                          Video <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#026A76]">CV</h1>
                           </h1>
                         <p class="text pb-8">
                 
@@ -122,7 +123,7 @@
               <div class="border-4 border-[#2E2E30] rounded-lg  pt-[2%] px-20 h-full">
                 
                
-              <h1 class="text-5xl pt-6 text-[#E44A8C]"> 
+              <h1 class="text-5xl pt-6 text-[#FAB100]"> 
                   mine færdigheder </h1>
                   
                   <p class="text-md pt-2 pb-10">
@@ -132,7 +133,7 @@
                    
                   <div class="flex flex-wrap pb-10">
                         <div class="pr-20">
-                          <p class="text-2xl">Content creation</p>
+                          <p class="text-2xl text-[#E15600]">Content creation</p>
                           <ul class="list-disc pl-4">
                             <li>Braning/rebranding
                               social
@@ -143,7 +144,7 @@
                       </div>
                       <div class="pr-20">
                         <ul class="list-disc">
-                          <p class="text-2xl">UX/UI design</p>
+                          <p class="text-2xl text-[#E15600]">UX/UI design</p>
                             <li>Branding strategi, analysemodeller.
                             </li>
                             <li>medie management</li>
@@ -155,7 +156,7 @@
 
                       <div class="pr-20">
                         <ul class="list-disc">
-                            <p class="text-2xl">Web Udvikle</p>
+                            <p class="text-2xl text-[#E15600]">Web Udvikle</p>
                             <li>Web Designe og udvikle hjemmesider</li>
                             <li>Kodning - html, CSS, Javascript,
                               <br>  Vue, Wordpress, Tailwind CSS, Boostrap
@@ -165,7 +166,7 @@
 
                       <div class="pr-10">
                         <ul class="list-disc">
-                          <p class="text-2xl">Adobe Programmer</p>
+                          <p class="text-2xl text-[#E15600]">Adobe Programmer</p>
                             <li>Photoshop
                             </li>
                             <li>InDesign</li>
@@ -182,10 +183,10 @@
                     
                   </p>
                   <div class="flex pb-12 pt-5 ">
-                      <button class="w-1/2 glow-button homeButtonProjekt  text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 xs:p-1">
+                      <button class="w-1/2 glow-button homeButtonProjekt   border-2 rounded-lg p-2 py-4 xs:p-1">
                       Hent CV
                       </button>
-                      <button class="w-1/2 glow-button homeButtonProjekt   text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
+                      <button class="w-1/2 glow-button homeButtonProjekt  border-2 rounded-lg p-2 py-4 ml-4">
                         LinkedIn
                       </button>
                     </div>

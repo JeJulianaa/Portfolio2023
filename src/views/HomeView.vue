@@ -16,7 +16,7 @@
                 <p class="homeTextTwo pt-4 xs:pt-0 pb-4">Multi Medie Designer</p>
               
                 <RouterLink to="/projekt" class="">
-                  <button class="w-3/4 glow-button homeButtonProjekt  text-center  border-4  rounded-lg p-4 lg:p-6 lg:mt-10 ">
+                  <button class="w-3/4 text-3xl glow-button homeButtonProjekt  text-center  border-4  rounded-lg p-4 lg:p-6 lg:mt-10 ">
                     <h1 class=" ">Se Projekter</h1>
                   </button>
                 </RouterLink>
@@ -46,8 +46,8 @@
             <div class="w-full lg:w-[60%] pb-2  lg: py-5" >
               <!-- Content for the left column goes here -->
               <div class="border-4 border-[#2E2E30] rounded-lg text-center pt-[11%] h-full">
-                <h1 class="text-7xl  text-center text-[#E44A8C]">
-                Fremhævede <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">Projekter</h1>
+                <h1 class="text-7xl  text-center text-[#E62D00]">
+                Fremhævede <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#FAB100]">Projekter</h1>
                 </h1>
                 <p class="text pb-8">
         
@@ -75,7 +75,7 @@
           <div class="boxreverse flex flex-wrap  justify-end pt-1 ">
             <div class="w-full h-auto lg:w-1/2 px-[8rem] lg:mb-0  py-4 border-4  rounded-lg border-[#2E2E30]" >
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl text-[#FFE6A7] pt-2">
+              <h1 class="text-5xl text-[#FAB100] pt-2">
                 Branding med et kreativ twist </h1>
 
              
@@ -86,8 +86,8 @@
                web development og en dedikation til at holde sig op to-date med de nyeste trends.
               </p>
               <RouterLink to="/omMig">
-                <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
-                  <h1>Om Mig</h1>
+                <button class="w-1/2 glow-button homeButtonProjekt  text-center   border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
+                  <h1 class="text-3xl">Om Mig</h1>
                 </button>
              </RouterLink>
             
@@ -118,16 +118,17 @@
             <div class="w-full border-4 border-[#2E2E30] rounded-lg lg:w-[60%] px-[8rem] pr-2 lg:mb-0 py-2  " >
              
               <!-- Content for the left column goes here -->
-              <h1 class="text-5xl pt-4  ">
-                Se flere af mine projekter
+              <h1 class="text-5xl pt-4 text-[#FAB100] ">
+                Se flere af mine
              </h1>
+             <h1 class="text-5xl text-[#E62D00]">projekter</h1>
                <p class="text pb-1">
                du kan finde flere af mine projekter inde under "projekter"
                 Hvis du har spørgsmål omkring nogen af mine projekter eller om andre ting, så er du velkommen til at kontakte mig. 
                 Du kan finde mine kontakt oplysninger under "kontakt"
               </p>
               <RouterLink to="/projekt">
-                <button class="w-1/2 glow-button homeButtonProjekt  text-center text-[#5F5F5F] border-[#5F5F5F] border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
+                <button class="w-1/2 glow-button text-3xl homeButtonProjekt  text-center   border-4 rounded-lg p-2 xs:p-4 lg:p-6 lg:mt-10  ">
                   Se Alle Projekter
                 </button>
              </RouterLink>
@@ -169,10 +170,10 @@
 
 <style> 
 .mitNavn{
-  color: rgb(67, 236, 255);
+  color: #FAB100;
 }
 .AlberteT{
-  color: rgb(251, 108, 167);
+  color:#E62D00;
   animation: flicker 0.5s ease-out both;
 }
 
