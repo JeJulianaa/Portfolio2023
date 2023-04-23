@@ -49,10 +49,10 @@
                 <h1 class="text-7xl  text-center text-[#E44A8C]">
                 Fremhævede <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">Projekter</h1>
                 </h1>
-              <p class="text pb-8">
-       
-              </p>
-               
+                <p class="text pb-8">
+        
+                </p>
+                
              </div>
             </div>
             <div class="w-full lg:w-[40%] pt-1">

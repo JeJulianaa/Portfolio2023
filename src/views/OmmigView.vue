@@ -9,9 +9,9 @@
 
       <div class="w-full flex justify-center ">
             <div class="flex flex-wrap justify-center  ">
-              <div class="w-full h-auto lg:w-1/2 px-4 mb-4 lg:mb-0 pb-2 py-4" >
+              <div class="w-full h-auto lg:w-full pt-4 px-4 mb-4 lg:mb-0 pb-6 py-4 border-2  rounded-lg mx-4" >
                 <!-- Content for the left column goes here -->
-                <div class="border-2 rounded-lg py-4 px-12 h-full">
+                <div class="border-2 mx-48 xs:mx-0 lg:mx-20 2xl:mx-48 py-10 px-12 h-full ">
                 
                   <h1 class="text-4xl text-center pb-3 text-[#FFE6A7] pt-2">
                     Beskrivelse af Mig
@@ -52,32 +52,49 @@
                     </p>
               </div>
 
-              </div>
-              
-          <div class="w-full lg:w-1/2">
-                <!-- Content for the right column goes here -->
-                <div class="childTwo   pl-2 py-2 pt-4 h-fit rounded-lg">
-                  <div class="w-[50%] childTwo rounded-lg">
-                  <iframe width="949" height="534" src="https://www.youtube.com/embed/2MA9uxZqyaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+            
+          <div class="w-full flex flex-wrap">
+            
+            <div class="w-1/2 lg:w-full flex flex-wrap justify-center  2xl:flex-row md:flex-col w-full lg:flex-row ">
+                  <div class="childTwo  w-1/2 pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-1/2 sm:w-full ">
+                    <div class=" childTwo rounded-lg h-full">
+                      <div class="border-4 border-[#2E2E30] rounded-lg text-center p-36 h-full">
+                          <h1 class="text-7xl text-center text-[#E44A8C]">
+                          Video <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#0091C2]">CV</h1>
+                          </h1>
+                        <p class="text pb-8">
+                
+                        </p>
+                        
+                     </div>
+                    </div>
+                  </div>
+                  <!-- Content for the right column goes here -->
+                  <div class="childTwo  w-1/2 pl-2 py-2 pt-4 rounded-lg sm: w-full md:w-full lg:w-1/2">
+                    <div class=" childTwo rounded-lg">
+                      <iframe class="w-full" width="949px" height="534px" src="https://www.youtube.com/embed/2MA9uxZqyaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                    
                 </div>
-                </div>
-                  
               </div>
+             
+            
             </div>
-          </div>
+            
           
+          </div>
 
           
           
 
           <!--section1 om mig og færdigheder-->
-        <div class="h-1 bg-[#1A1A1A]">
-
-        </div>
-        <div class="w-full flex justify-end">
+       
+        <div class="w-full flex justify-center">
 
 
-          <div class="w-full sections flex flex-wrap w-5/6  py-2">
+          <div class="w-full sections flex flex-wrap justify-center pr-3 py-2">
             <div class="w-full lg:w-full pl-4 pb-2 " >
               <!-- Content for the left column goes here -->
               <div class="border-4 border-[#2E2E30] rounded-lg  pt-[2%] px-20 h-full">
@@ -91,7 +108,7 @@
                     <br>  interesseret i min erfaring og uddannelse, kan du finde  dette 
                     <br> i mit CV 
                    
-                  <div class="flex pb-10">
+                  <div class="flex flex-wrap pb-10">
                         <div class="pr-20">
                           <p class="text-2xl">Content creation</p>
                           <ul class="list-disc pl-4">
@@ -142,8 +159,8 @@
                   </div>
                     
                   </p>
-                  <div class="flex pb-12 pt-5">
-                      <button class="w-1/2 glow-button homeButtonProjekt  text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ">
+                  <div class="flex pb-12 pt-5 ">
+                      <button class="w-1/2 glow-button homeButtonProjekt  text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 xs:p-1">
                       Hent CV
                       </button>
                       <button class="w-1/2 glow-button homeButtonProjekt   text-[#5F5F5F] border-[#5F5F5F] border-2 rounded-lg p-2 py-4 ml-4">
@@ -192,8 +209,12 @@
     font-size: 4rem;
   }
   
+
+
    
- 
+
+
+  
   
   
 </style>

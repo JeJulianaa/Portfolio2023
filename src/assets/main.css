@@ -105,19 +105,24 @@
   @media (min-width: 350px) {
     .homeTextOne{
     font-size: 1rem;
-    }
+    };
     .homeButtomProjekt {
       
-    }
+    };
     button{
       font-family: "neon";
       color: rgb(2, 106, 118);
       border-color: rgb(2, 106, 118);
      
       font-family: "neon";
-    }
+    };
     h1{
       font-family: "neon";
+    };
+
+
+        
+  
     }
   
   }
@@ -162,17 +167,22 @@
         color: rgb(2, 106, 118);
         border-color: rgb(2, 106, 118);
         font-size: 3rem;
-      }
+      };
+    
+
   }
   
   @media (min-width: 1280px) {
     
     h1{
-      font-family: "neon";}
+      font-family: "neon";
+    };
     
       .homeTextOne{
         font-size: 3rem;
-        }
+        };
+
+  
       
   }
   button{
@@ -184,7 +194,7 @@
  
 
   
-}
+
 
 
 
