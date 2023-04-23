@@ -57,10 +57,10 @@
             </div>
             <div class="w-full lg:w-[40%] pt-1">
               <!-- Content for the right column goes here -->
-              <div class="w-full childTwo pl-2 py-2 pt-4  rounded-lg">
+              <div class="w-full h-full childTwo pl-2 py-2 pt-4  rounded-lg  xs:w-full sm:w-full">
                 <RouterLink to="/portfoliodetail/1">
                   <a href="#" class="">
-                    <img src="@/assets/billeder/Mockup-pc-dreams.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                    <img  src="@/assets/billeder/Mockup-pc-dreams.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button h-full object-cover">
                   </a>
                 </RouterLink>
               </div>
@@ -94,11 +94,11 @@
             </div>
             <div class="w-full lg:w-1/2 pl-2">
               <!-- Content for the right column goes here -->
-              <div class="childTwo   pl-1  h-fit rounded-lg">
+              <div class="childTwo h-full  pl-1  h-fit rounded-lg">
                 
                 <RouterLink to="/portfoliodetail/2">
                   <a href="#" class="">
-                    <img src="@/assets/billeder/noodles-promotion.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                    <img src="@/assets/billeder/noodles-promotion.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button h-full object-cover">
                   </a>
                 </RouterLink>
               </div>
@@ -134,10 +134,10 @@
             </div>
             <div class="w-full lg:w-[40%] ">
               <!-- Content for the right column goes here -->
-              <div class="w-full childTwo  rounded-lg px-2">
+              <div class="w-full h-full childTwo  rounded-lg px-2">
                 <RouterLink to="/portfoliodetail/3">
                   <a href="#" class="">
-                    <img src="@/assets/billeder/eventoversigt-beyond.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button">
+                    <img src="@/assets/billeder/eventoversigt-beyond.jpg" alt="" class="w-full object-container rounded-lg glow-photo-button h-full object-cover">
                   </a>
                 </RouterLink>
                
