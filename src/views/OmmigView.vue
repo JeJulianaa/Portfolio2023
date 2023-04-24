@@ -14,7 +14,7 @@
           <div class="w-full flex flex-wrap">
               
               <div class="w-full lg:w-full flex flex-wrap justify-center  2xl:flex-row md:flex-col w-full lg:flex-row ">
-                    <div class="childTwo  w-[70%] pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-[70%] xs:w-full sm:w-full ">
+                    <div class="childTwo  w-[70%] pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-[70%] xs:w-full sm:w-full xs:pl-0 ">
                       <div class=" childTwo rounded-lg h-full">
                         <div class="border-4 border-[#2E2E30] rounded-lg text-center p-36 h-full xs:p-3 ">
                           <h1 class="text-4xl text-center pb-3 text-[#FAB100] pt-2">
@@ -79,12 +79,12 @@
             
            <div class="w-full flex flex-wrap">
             
-            <div class="w-1/2 lg:w-full flex flex-wrap justify-center  2xl:flex-row md:flex-col w-full lg:flex-row ">
-                  <div class="childTwo  w-1/2 pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-1/2 sm:w-full ">
+            <div class="w-1/2 lg:w-full xs:w-full flex flex-wrap justify-center  2xl:flex-row md:flex-col w-full lg:flex-row ">
+                  <div class="childTwo  w-1/2 pl-2 py-2 pt-4 rounded-lg md:w-full lg:w-1/2 sm:w-full xs:w-full xs:pl-0 ">
                     <div class=" childTwo rounded-lg h-full">
-                      <div class="border-4 border-[#2E2E30] rounded-lg text-center p-36 h-full">
-                          <h1 class="text-7xl text-center text-[#026A76]">
-                          Video <h1 class="text-7xl px-20 mb-5 lg:mb-0 pb-8 py-5 text-[#026A76]">CV</h1>
+                      <div class="border-4 border-[#2E2E30] rounded-lg text-center  h-full">
+                          <h1 class="text-7xl  text-center py-[15%] text-[#026A76]">
+                          Video <h1 class="text-7xl  mb-5 lg:mb-0 pb-8 py-7 text-[#026A76]">CV</h1>
                           </h1>
                         <p class="text pb-8">
                 
@@ -117,16 +117,16 @@
         <div class="w-full flex justify-center">
 
 
-          <div class="w-full sections flex flex-wrap justify-center pr-3 py-2">
-            <div class="w-full lg:w-full pl-4 pb-2 " >
+          <div class="w-full sections flex flex-wrap justify-center px-5 lg:py-2 xs:px-0">
+            <div class="w-full lg:w-full pb-2 " >
               <!-- Content for the left column goes here -->
-              <div class="border-4 border-[#2E2E30] rounded-lg  pt-[2%] px-20 h-full">
+              <div class="border-4 border-[#2E2E30] rounded-lg  pt-[2%] px-20 h-full lg:px-20 xs:px-10">
                 
                
-              <h1 class="text-5xl pt-6 text-[#FAB100]"> 
+              <h1 class="text-5xl pt-6 text-[#FAB100] lg:text-5xl xs:text-4xl"> 
                   mine færdigheder </h1>
                   
-                  <p class="text-md pt-2 pb-10">
+                  <p class="text-md pt-2 pb-10 ">
                     Her ser du mine færdigheder som multimediedesigner. Hvis du er 
                     <br>  interesseret i min erfaring og uddannelse, kan du finde  dette 
                     <br> i mit CV 
@@ -182,13 +182,26 @@
                   </div>
                     
                   </p>
-                  <div class="flex pb-12 pt-5 ">
-                      <button class="w-1/2 glow-button homeButtonProjekt   border-2 rounded-lg p-2 py-4 xs:p-1">
-                      Hent CV
-                      </button>
-                      <button class="w-1/2 glow-button homeButtonProjekt  border-2 rounded-lg p-2 py-4 ml-4">
-                        LinkedIn
-                      </button>
+                  <div class="flex flex-wrap pb-12 pt-5">
+                      
+                        <a class="w-1/4 border-[#026a76] text-4xl mb-0 md:text-4xl md:w-1/4 xs:text-xl xs:w-full xs:mb-5 glow-button homeButtonProjekt mr-5 text-center border-2 rounded-lg p-2 py-4" href="https://erhvervsakademisydvest-my.sharepoint.com/:f:/g/personal/albtor01_easv365_dk/EoK27x59ZGtBjmVhwTVSp68BCYBgTkMo6oK-TIlPtL_7kA?e=n3SAxJ">
+                          <button class="">
+                            Hent CV
+                           </button>
+                        </a>
+                      
+                      <div>
+                        
+                      </div>
+                      <a class="w-1/4 border-[#026a76] text-4xl mb-0 xs:mb-5 md:text-4xl  xs:text-xl xs:w-full md:w-1/4 text-center glow-button homeButtonProjekt  border-2 rounded-lg p-2 py-4 " href="https://www.linkedin.com/in/alberte-juliana-torbensen/">
+                       
+                          <button class="    ">
+                            
+                              LinkedIn
+                            
+                          </button>
+                     
+                        </a>
                     </div>
                  
             </div>
@@ -234,8 +247,10 @@
   
 
 
-   
-
+  .homeButtomProjekt {
+      color: rgb(2, 106, 118);
+      border-color: #026a76;
+    }
 
   
   

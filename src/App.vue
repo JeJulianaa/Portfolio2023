@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template class="">
   <header class="">
-    <img alt="" class="logo" src="#" width="100" height="100" />
+    <!--<img alt="" class="logo" src="#" width="100" height="100" /> -->
 
     <div class="wrapper ">
 
@@ -95,16 +95,16 @@ import { RouterLink, RouterView } from 'vue-router'
   
     <div class="container mx-auto px-4 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
       <div>
-        <h4 class="text-lg font-bold">Contact Us</h4>
+        <h4 class="text-lg font-bold">Kontakt Mig</h4>
         <ul class="mt-4">
           <li>
-            <span class="text-gray-400">Phone:</span> 21 16 38 58
+            <span class="text-gray-400">Mobil:</span> 21 16 38 58
           </li>
           <li>
             <span class="text-gray-400">Email:</span> Alberte.torbensen@gmail.com
           </li>
           <li>
-            <span class="text-gray-400">Address:</span> Esbjerg 6700
+            <span class="text-gray-400">Adresse:</span> Esbjerg 6700
           </li>
         </ul>
       </div>
@@ -131,10 +131,11 @@ import { RouterLink, RouterView } from 'vue-router'
           </li>
         </ul>
       </div>
-      <div class="flex items-center justify-center md:col-start-4">
+
+      <!--<div class="flex items-center justify-center md:col-start-4">
         <img src="/logo.png" alt="Logo" class="w-12 h-12 mb-4">
         <p class="text-gray-400">&copy; 2023 Your Company Name</p>
-      </div>
+      </div>-->
     </div>
 
     </footer>

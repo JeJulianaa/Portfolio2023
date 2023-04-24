@@ -13,13 +13,14 @@ const getPortfolio = () => {
       link: "https://www.google.com",
       github: "https://github.com/JeJulianaa/JeJulianaa.github.io",
       tech: "Boostrap, HTML, CSS, Photoshop, illustrator",
-      date: "2021-23-11",
-      
+      dato: "2021-23-11",
+      completed: true,
+      complete: "complete"
     },
     {
       id: 2,
       title: "Cup Noodles Promotion",
-      description: "Projekt opgave i forbindelse med min uddanelse",
+      description: "Projekt opgave i forbindelse med min uddannelse. Min Gruppe og jeg har lavet en nudel reklame film som er målrettet til unge mennesker. Videoen er optaget i formatet 16:9 da den er til sociale medier som tiktok, instagram. du kan se video ved at klikke på YouTube linket.",
       category: "Video",
       image: "../src/assets/billeder/noodles-promotion.jpg",
       imageTwo: "../src/assets/billeder/mockupNoodlesVideo.jpg",
@@ -34,7 +35,7 @@ const getPortfolio = () => {
     {
       id: 3,
       title: "Beyond Esbjerg",
-      description: "Projekt uge, hvor vi skulle city brande Esbjerg",
+      description: "Projekt uge: city brande Esbjerg. Jeg og min gruppe valgte at lave en prototype for en havnefest. der er linket til YouTube video som er en reklame film/ udtryk for hvad vi vil med dette event.",
       category: "Video",
       image: "../src/assets/billeder/beyondesbjerg-logoo.jpg",
       imageTwo: "../src/assets/billeder/Mockup-Mobil-BeyondEsbjerg.jpg",
@@ -50,7 +51,7 @@ const getPortfolio = () => {
     {
       id: 4,
       title: "BioVers",
-      description: "UX og UI: udarbejdet en prototype af en biograf App ",
+      description: "UX og UI: udarbejdet en prototype af en biograf App. Jeg og min gruppe har udarbejdet app på baggrund af modeller inden for ux faget for at få den mest funktionelle app. Vi har gået med et lilla design da vil gerne vil modernisere Biografer ",
       category: "UX/UI",
       image: "../src/assets/billeder/bioversMockupmobil.jpg",
       imageTwo: "../src/assets/billeder/Biovers-menu.jpg",

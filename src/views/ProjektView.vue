@@ -10,7 +10,7 @@
       <div class="w-full hero-side mx-auto flex justify-center   text-center text-[#5F5F5F] bg-[#1A1A1A]  py-2  ">
         <h1>Projekter</h1>
       </div>
-      <p class="mine-projekter flex ">Her er en liste over nogen af de projekter jeg har lavet</p>
+      <p class="mine-projekter flex "></p>
    </div> 
   
    <div class="portfolio-container w-full ">
@@ -19,7 +19,7 @@
           {{ item.category }} 
         </p>
         
-        <h4>{{ item.title }} - id:  {{ item.id }}</h4>
+        <h4>{{ item.title }} </h4> 
         <button class="button-yellow border-4 rounded-lg">
           <RouterLink :to="{ name: 'portfoliodetail', params: { id: item.id }}">
             <div class="overflow-hidden rounded-lg">
@@ -29,10 +29,11 @@
        </button>
         
      
-       
+       <!--
         <p class="projektview">
           Dato: {{ item.date }}
         </p>
+        -->
         
        
 
