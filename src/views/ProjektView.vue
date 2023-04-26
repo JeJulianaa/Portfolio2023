@@ -121,6 +121,12 @@ const { state  } = portfoliodb()
     border-radius: 0.5rem;
   }
 
+  .UX {
+    color: #2f4ccb;
+    border: 2px solid #2f4ccb;
+    border-radius: 0.5rem;
+  }
+
   .incomplete {
     color: #bc0c0c;
   }

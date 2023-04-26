@@ -38,9 +38,9 @@
                 </p>
                 <br>
                 <p  v-if="portfolioDetails.yt">
-                  Youtube Video:<a :href="portfolioDetails.yt">
-                  {{ portfolioDetails.yt }}
-                </a>
+                  Youtube Video:<button :href="portfolioDetails.yt">
+                  se mere
+                  </button>
                 </p>
                 <p v-if="portfolioDetails.gruppe">
                   Sammen arbejdet med: {{ portfolioDetails.gruppe }}
